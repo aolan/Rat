@@ -13,10 +13,12 @@
  *  安全设置
  */
 #define RT_WEAK_SELF(weakSelf)          __weak __typeof(&*self)weakSelf = self
-#define RT_IS_NULL(obj)                 ((obj == nil) OR ([obj isKindOfClass: [NSNull class]]))
+#define RT_IS_NULL(obj)                 ((obj == nil) || ([obj isKindOfClass: [NSNull class]]))
 #define RT_NOT_NULL(obj)                (!RT_IS_NULL(obj))
 #define RT_NOT_EMPTY(str)               (RT_NOT_NULL(str) && [str isKindOfClass:[NSString class]] && str.length > 0)
 #define RT_IS_EMPTY(str)                (!RT_NOT_EMPTY(str))
+#define RT_ARRAY_IS_EMPTY(array)        (array == nil || array.count == 0)
+#define RT_ARRAY_NOT_EMPTY(array)       (!RT_ARRAY_IS_EMPTY(array))
 
 /**
  *  颜色
