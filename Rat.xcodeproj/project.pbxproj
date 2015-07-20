@@ -8,10 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		D546D2B61B5CD5A400F025C1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D546D2B51B5CD5A400F025C1 /* main.m */; };
-		D546D2B91B5CD5A400F025C1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D546D2B81B5CD5A400F025C1 /* AppDelegate.m */; };
 		D546D2BC1B5CD5A400F025C1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D546D2BB1B5CD5A400F025C1 /* ViewController.m */; };
 		D546D2C11B5CD5A400F025C1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D546D2C01B5CD5A400F025C1 /* Images.xcassets */; };
 		D546D2D01B5CD5A400F025C1 /* RatTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D546D2CF1B5CD5A400F025C1 /* RatTests.m */; };
+		D546D2DB1B5CDD6D00F025C1 /* RTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D546D2DA1B5CDD6D00F025C1 /* RTAppDelegate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,14 +28,14 @@
 		D546D2B01B5CD5A400F025C1 /* Rat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D546D2B41B5CD5A400F025C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D546D2B51B5CD5A400F025C1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		D546D2B71B5CD5A400F025C1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		D546D2B81B5CD5A400F025C1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		D546D2BA1B5CD5A400F025C1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		D546D2BB1B5CD5A400F025C1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		D546D2C01B5CD5A400F025C1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		D546D2C91B5CD5A400F025C1 /* RatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D546D2CE1B5CD5A400F025C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D546D2CF1B5CD5A400F025C1 /* RatTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RatTests.m; sourceTree = "<group>"; };
+		D546D2D91B5CDD6D00F025C1 /* RTAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTAppDelegate.h; sourceTree = "<group>"; };
+		D546D2DA1B5CDD6D00F025C1 /* RTAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTAppDelegate.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,8 +77,8 @@
 		D546D2B21B5CD5A400F025C1 /* Rat */ = {
 			isa = PBXGroup;
 			children = (
-				D546D2B71B5CD5A400F025C1 /* AppDelegate.h */,
-				D546D2B81B5CD5A400F025C1 /* AppDelegate.m */,
+				D546D2D91B5CDD6D00F025C1 /* RTAppDelegate.h */,
+				D546D2DA1B5CDD6D00F025C1 /* RTAppDelegate.m */,
 				D546D2BA1B5CD5A400F025C1 /* ViewController.h */,
 				D546D2BB1B5CD5A400F025C1 /* ViewController.m */,
 				D546D2C01B5CD5A400F025C1 /* Images.xcassets */,
@@ -211,8 +211,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D546D2DB1B5CDD6D00F025C1 /* RTAppDelegate.m in Sources */,
 				D546D2BC1B5CD5A400F025C1 /* ViewController.m in Sources */,
-				D546D2B91B5CD5A400F025C1 /* AppDelegate.m in Sources */,
 				D546D2B61B5CD5A400F025C1 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
