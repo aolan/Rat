@@ -68,9 +68,10 @@
  *  设备类型
  */
 #define RT_IS_IPAD                      (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad)
-#define RT_IS_RETINA                    ([UIScreen mainScreen].scale == 2)
+#define RT_IS_RETINA                    (RT_SCREEN_SCALE == 2)
 #define RT_SCREEN_WIDTH                 [UIScreen mainScreen].bounds.size.width
 #define RT_SCREEN_HEIGHT                [UIScreen mainScreen].bounds.size.height
+#define RT_SCREEN_SCALE                 [UIScreen mainScreen].scale
 
 
 #endif
