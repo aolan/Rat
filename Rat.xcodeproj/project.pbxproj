@@ -42,6 +42,8 @@
 		D546D2E51B5CF60600F025C1 /* RTSystemUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTSystemUtil.h; sourceTree = "<group>"; };
 		D546D2E61B5CF60600F025C1 /* RTSystemUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTSystemUtil.m; sourceTree = "<group>"; };
 		D546D2E91B5CFD8300F025C1 /* Rat-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Rat-Prefix.pch"; sourceTree = "<group>"; };
+		D546D2EA1B5D051500F025C1 /* RTShortDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTShortDefine.h; sourceTree = "<group>"; };
+		D546D2EB1B5D0BE900F025C1 /* RTConfigDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RTConfigDefine.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,6 +157,7 @@
 			isa = PBXGroup;
 			children = (
 				D546D2E41B5CF24500F025C1 /* RTEnumDefine.h */,
+				D546D2EA1B5D051500F025C1 /* RTShortDefine.h */,
 			);
 			name = Defines;
 			sourceTree = "<group>";
@@ -162,6 +165,7 @@
 		D546D2DE1B5CE54900F025C1 /* Configs */ = {
 			isa = PBXGroup;
 			children = (
+				D546D2EB1B5D0BE900F025C1 /* RTConfigDefine.h */,
 			);
 			name = Configs;
 			sourceTree = "<group>";
