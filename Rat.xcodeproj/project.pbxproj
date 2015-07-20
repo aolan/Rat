@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		D546D2B61B5CD5A400F025C1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D546D2B51B5CD5A400F025C1 /* main.m */; };
-		D546D2BC1B5CD5A400F025C1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D546D2BB1B5CD5A400F025C1 /* ViewController.m */; };
 		D546D2C11B5CD5A400F025C1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D546D2C01B5CD5A400F025C1 /* Images.xcassets */; };
 		D546D2D01B5CD5A400F025C1 /* RatTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D546D2CF1B5CD5A400F025C1 /* RatTests.m */; };
 		D546D2DB1B5CDD6D00F025C1 /* RTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D546D2DA1B5CDD6D00F025C1 /* RTAppDelegate.m */; };
@@ -28,8 +27,6 @@
 		D546D2B01B5CD5A400F025C1 /* Rat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D546D2B41B5CD5A400F025C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D546D2B51B5CD5A400F025C1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		D546D2BA1B5CD5A400F025C1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		D546D2BB1B5CD5A400F025C1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		D546D2C01B5CD5A400F025C1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		D546D2C91B5CD5A400F025C1 /* RatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D546D2CE1B5CD5A400F025C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -77,10 +74,11 @@
 		D546D2B21B5CD5A400F025C1 /* Rat */ = {
 			isa = PBXGroup;
 			children = (
-				D546D2D91B5CDD6D00F025C1 /* RTAppDelegate.h */,
-				D546D2DA1B5CDD6D00F025C1 /* RTAppDelegate.m */,
-				D546D2BA1B5CD5A400F025C1 /* ViewController.h */,
-				D546D2BB1B5CD5A400F025C1 /* ViewController.m */,
+				D546D2E31B5CE58800F025C1 /* AppDelegate */,
+				D546D2DF1B5CE55A00F025C1 /* UI */,
+				D546D2DE1B5CE54900F025C1 /* Configs */,
+				D546D2DD1B5CE53C00F025C1 /* Defines */,
+				D546D2DC1B5CE53500F025C1 /* Common */,
 				D546D2C01B5CD5A400F025C1 /* Images.xcassets */,
 				D546D2B31B5CD5A400F025C1 /* Supporting Files */,
 			);
@@ -111,6 +109,67 @@
 				D546D2CE1B5CD5A400F025C1 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D546D2DC1B5CE53500F025C1 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				D546D2E21B5CE57E00F025C1 /* Util */,
+				D546D2E11B5CE57100F025C1 /* Network */,
+				D546D2E01B5CE56A00F025C1 /* UIView */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		D546D2DD1B5CE53C00F025C1 /* Defines */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Defines;
+			sourceTree = "<group>";
+		};
+		D546D2DE1B5CE54900F025C1 /* Configs */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Configs;
+			sourceTree = "<group>";
+		};
+		D546D2DF1B5CE55A00F025C1 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		D546D2E01B5CE56A00F025C1 /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = UIView;
+			sourceTree = "<group>";
+		};
+		D546D2E11B5CE57100F025C1 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Network;
+			sourceTree = "<group>";
+		};
+		D546D2E21B5CE57E00F025C1 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Util;
+			sourceTree = "<group>";
+		};
+		D546D2E31B5CE58800F025C1 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				D546D2D91B5CDD6D00F025C1 /* RTAppDelegate.h */,
+				D546D2DA1B5CDD6D00F025C1 /* RTAppDelegate.m */,
+			);
+			name = AppDelegate;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -212,7 +271,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				D546D2DB1B5CDD6D00F025C1 /* RTAppDelegate.m in Sources */,
-				D546D2BC1B5CD5A400F025C1 /* ViewController.m in Sources */,
 				D546D2B61B5CD5A400F025C1 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
