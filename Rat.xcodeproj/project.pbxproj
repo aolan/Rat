@@ -12,6 +12,7 @@
 		D546D2C11B5CD5A400F025C1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D546D2C01B5CD5A400F025C1 /* Images.xcassets */; };
 		D546D2D01B5CD5A400F025C1 /* RatTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D546D2CF1B5CD5A400F025C1 /* RatTests.m */; };
 		D546D2DB1B5CDD6D00F025C1 /* RTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D546D2DA1B5CDD6D00F025C1 /* RTAppDelegate.m */; };
+		D546D2E71B5CF60600F025C1 /* RTSystemUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = D546D2E61B5CF60600F025C1 /* RTSystemUtil.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +38,10 @@
 		D546D2CF1B5CD5A400F025C1 /* RatTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RatTests.m; sourceTree = "<group>"; };
 		D546D2D91B5CDD6D00F025C1 /* RTAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTAppDelegate.h; sourceTree = "<group>"; };
 		D546D2DA1B5CDD6D00F025C1 /* RTAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTAppDelegate.m; sourceTree = "<group>"; };
+		D546D2E41B5CF24500F025C1 /* RTEnumDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTEnumDefine.h; sourceTree = "<group>"; };
+		D546D2E51B5CF60600F025C1 /* RTSystemUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTSystemUtil.h; sourceTree = "<group>"; };
+		D546D2E61B5CF60600F025C1 /* RTSystemUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTSystemUtil.m; sourceTree = "<group>"; };
+		D546D2E91B5CFD8300F025C1 /* Rat-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Rat-Prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +119,7 @@
 			children = (
 				D546D2B41B5CD5A400F025C1 /* Info.plist */,
 				D546D2B51B5CD5A400F025C1 /* main.m */,
+				D546D2E91B5CFD8300F025C1 /* Rat-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -148,6 +154,7 @@
 		D546D2DD1B5CE53C00F025C1 /* Defines */ = {
 			isa = PBXGroup;
 			children = (
+				D546D2E41B5CF24500F025C1 /* RTEnumDefine.h */,
 			);
 			name = Defines;
 			sourceTree = "<group>";
@@ -183,6 +190,8 @@
 		D546D2E21B5CE57E00F025C1 /* Util */ = {
 			isa = PBXGroup;
 			children = (
+				D546D2E51B5CF60600F025C1 /* RTSystemUtil.h */,
+				D546D2E61B5CF60600F025C1 /* RTSystemUtil.m */,
 			);
 			name = Util;
 			sourceTree = "<group>";
@@ -331,6 +340,7 @@
 			files = (
 				D546D2DB1B5CDD6D00F025C1 /* RTAppDelegate.m in Sources */,
 				D546D2B61B5CD5A400F025C1 /* main.m in Sources */,
+				D546D2E71B5CF60600F025C1 /* RTSystemUtil.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -376,6 +386,7 @@
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREFIX_HEADER = "Rat/Rat-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -417,6 +428,7 @@
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREFIX_HEADER = "Rat/Rat-Prefix.pch";
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
