@@ -1,0 +1,58 @@
+PODS:
+  - AliPay (2.1.2)
+  - FMDB (2.5):
+    - FMDB/standard (= 2.5)
+  - FMDB/common (2.5)
+  - FMDB/standard (2.5):
+    - FMDB/common
+  - IQKeyboardManager (3.2.3)
+  - Masonry (0.6.1)
+  - MBProgressHUD (0.9.1)
+  - MJRefresh (1.4.6)
+  - NSDictionary+Accessors (1.0.0)
+  - Reachability (3.2)
+  - SDWebImage (3.7.1):
+    - SDWebImage/Core (= 3.7.1)
+  - SDWebImage/Core (3.7.1)
+  - SSKeychain (1.2.3)
+  - TalkingDataAnalytics-NO-IDFA (1.2.70)
+  - UIAlertView+Block (1.1.0)
+  - Weibo (2.4.2)
+  - WeixinSDK (1.4.3)
+  - XHImageViewer (0.1.2)
+
+DEPENDENCIES:
+  - AliPay (= 2.1.2)
+  - FMDB (= 2.5)
+  - IQKeyboardManager (= 3.2.3)
+  - Masonry (= 0.6.1)
+  - MBProgressHUD (= 0.9.1)
+  - MJRefresh (= 1.4.6)
+  - NSDictionary+Accessors (= 1.0.0)
+  - Reachability (= 3.2)
+  - SDWebImage (= 3.7.1)
+  - SSKeychain (~> 1.2.3)
+  - TalkingDataAnalytics-NO-IDFA (= 1.2.70)
+  - UIAlertView+Block (= 1.1.0)
+  - Weibo (= 2.4.2)
+  - WeixinSDK (= 1.4.3)
+  - XHImageViewer (= 0.1.2)
+
+SPEC CHECKSUMS:
+  AliPay: 2bd35a4e486d2a8c035043023cd846e886bb21d1
+  FMDB: 96e8f1bcc1329e269330f99770ad4285d9003e52
+  IQKeyboardManager: 6ca5c54e3776eb54af4c7caf515833f3cd761d59
+  Masonry: 4972309f2f134de9dd312f4dc4a21359b50e6caa
+  MBProgressHUD: c47f2c166c126cf2ce36498d80f33e754d4e93ad
+  MJRefresh: 2eaa3fd8f67fbb86497840fb0167446f7eb61dc7
+  NSDictionary+Accessors: 5c453c028da416525428c938602c7c96704a9bbc
+  Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
+  SDWebImage: ed3095af2ff88b436426037444979b917f6c5575
+  SSKeychain: 3f42991739c6c60a9cf1bbd4dff6c0d3694bcf3d
+  TalkingDataAnalytics-NO-IDFA: d644751c394ee1e21a7ee66e65f1e25cc3ed178e
+  UIAlertView+Block: fa6fcfe2c5110d3b6e9b9d9bfb46ac9250007f65
+  Weibo: ed569ffed6eb043a159ac3b01dc5122b4e1fd77a
+  WeixinSDK: 012c72fbaf8cef68afa7b0d0bb81c67a7a5c9136
+  XHImageViewer: 7b275d2aa829e56761c30303b9d51cae086a90b9
+
+COCOAPODS: 0.36.3

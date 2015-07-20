@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0468F694717D77ECFCFC61FF /* libPods-Rat.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 52EAEBFD0C27635B58AF8474 /* libPods-Rat.a */; };
 		D546D2B61B5CD5A400F025C1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D546D2B51B5CD5A400F025C1 /* main.m */; };
 		D546D2C11B5CD5A400F025C1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D546D2C01B5CD5A400F025C1 /* Images.xcassets */; };
 		D546D2D01B5CD5A400F025C1 /* RatTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D546D2CF1B5CD5A400F025C1 /* RatTests.m */; };
@@ -24,6 +25,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		42B05B4CC8102C03ACDDDA76 /* Pods-Rat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rat.release.xcconfig"; path = "Pods/Target Support Files/Pods-Rat/Pods-Rat.release.xcconfig"; sourceTree = "<group>"; };
+		52EAEBFD0C27635B58AF8474 /* libPods-Rat.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Rat.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6138EA8D6D6B562E60D07746 /* Pods-Rat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Rat/Pods-Rat.debug.xcconfig"; sourceTree = "<group>"; };
 		D546D2B01B5CD5A400F025C1 /* Rat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D546D2B41B5CD5A400F025C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D546D2B51B5CD5A400F025C1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +44,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0468F694717D77ECFCFC61FF /* libPods-Rat.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -53,12 +58,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		14973953C4625329BBF510C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				52EAEBFD0C27635B58AF8474 /* libPods-Rat.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1AC42AEA9BADCDF7E95BE787 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6138EA8D6D6B562E60D07746 /* Pods-Rat.debug.xcconfig */,
+				42B05B4CC8102C03ACDDDA76 /* Pods-Rat.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		D546D2A71B5CD5A400F025C1 = {
 			isa = PBXGroup;
 			children = (
 				D546D2B21B5CD5A400F025C1 /* Rat */,
 				D546D2CC1B5CD5A400F025C1 /* RatTests */,
 				D546D2B11B5CD5A400F025C1 /* Products */,
+				1AC42AEA9BADCDF7E95BE787 /* Pods */,
+				14973953C4625329BBF510C4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -179,9 +203,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D546D2D31B5CD5A400F025C1 /* Build configuration list for PBXNativeTarget "Rat" */;
 			buildPhases = (
+				9C994EE019A76165841BC62F /* Check Pods Manifest.lock */,
 				D546D2AC1B5CD5A400F025C1 /* Sources */,
 				D546D2AD1B5CD5A400F025C1 /* Frameworks */,
 				D546D2AE1B5CD5A400F025C1 /* Resources */,
+				61E798CDC73B26BBA757DBBD /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -264,6 +290,39 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		61E798CDC73B26BBA757DBBD /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Rat/Pods-Rat-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9C994EE019A76165841BC62F /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D546D2AC1B5CD5A400F025C1 /* Sources */ = {
@@ -374,10 +433,12 @@
 		};
 		D546D2D41B5CD5A400F025C1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6138EA8D6D6B562E60D07746 /* Pods-Rat.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = Rat/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -385,10 +446,12 @@
 		};
 		D546D2D51B5CD5A400F025C1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42B05B4CC8102C03ACDDDA76 /* Pods-Rat.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = Rat/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};

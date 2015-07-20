@@ -1,0 +1,2 @@
+PODS_RAT_TALKINGDATAANALYTICS_NO_IDFA_LIBRARY_SEARCH_PATHS = $(PODS_ROOT)/TalkingDataAnalytics-NO-IDFA/**
+PODS_RAT_TALKINGDATAANALYTICS_NO_IDFA_OTHER_LDFLAGS = -l"TalkingData" -l"z" -framework "CoreTelephony" -framework "Security"
