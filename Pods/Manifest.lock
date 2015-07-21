@@ -17,6 +17,7 @@ PODS:
   - SSKeychain (1.2.3)
   - TalkingDataAnalytics-NO-IDFA (1.2.70)
   - UIAlertView+Block (1.1.0)
+  - UITableView+FDTemplateLayoutCell (1.3)
   - Weibo (2.4.2)
   - WeixinSDK (1.4.3)
   - XHImageViewer (0.1.2)
@@ -34,6 +35,7 @@ DEPENDENCIES:
   - SSKeychain (~> 1.2.3)
   - TalkingDataAnalytics-NO-IDFA (= 1.2.70)
   - UIAlertView+Block (= 1.1.0)
+  - UITableView+FDTemplateLayoutCell (~> 1.3)
   - Weibo (= 2.4.2)
   - WeixinSDK (= 1.4.3)
   - XHImageViewer (= 0.1.2)
@@ -51,6 +53,7 @@ SPEC CHECKSUMS:
   SSKeychain: 3f42991739c6c60a9cf1bbd4dff6c0d3694bcf3d
   TalkingDataAnalytics-NO-IDFA: d644751c394ee1e21a7ee66e65f1e25cc3ed178e
   UIAlertView+Block: fa6fcfe2c5110d3b6e9b9d9bfb46ac9250007f65
+  UITableView+FDTemplateLayoutCell: d5be6056b5060313f5955a2590ecd33142ad713d
   Weibo: ed569ffed6eb043a159ac3b01dc5122b4e1fd77a
   WeixinSDK: 012c72fbaf8cef68afa7b0d0bb81c67a7a5c9136
   XHImageViewer: 7b275d2aa829e56761c30303b9d51cae086a90b9

@@ -18,6 +18,7 @@ target 'Rat' do
 	pod 'TalkingDataAnalytics-NO-IDFA', '1.2.70'
 	pod 'SSKeychain', '~> 1.2.3'
 	pod 'NSDictionary+Accessors', '1.0.0'
+    pod 'UITableView+FDTemplateLayoutCell', '~> 1.3'
 end
 
 target 'RatTests' do
