@@ -20,6 +20,7 @@
 		D5B3D2A41B5E196B004B3DE6 /* RTUserCenterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5B3D2A31B5E196B004B3DE6 /* RTUserCenterViewController.m */; };
 		D5B3D2A71B5E1F1C004B3DE6 /* RTCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5B3D2A61B5E1F1C004B3DE6 /* RTCollectionViewController.m */; };
 		D5B3D2AA1B5E1F2A004B3DE6 /* RTTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5B3D2A91B5E1F2A004B3DE6 /* RTTableViewController.m */; };
+		D5B3D2AF1B5E445D004B3DE6 /* UIView+RTFrameEx.m in Sources */ = {isa = PBXBuildFile; fileRef = D5B3D2AE1B5E445D004B3DE6 /* UIView+RTFrameEx.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +66,8 @@
 		D5B3D2A61B5E1F1C004B3DE6 /* RTCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTCollectionViewController.m; sourceTree = "<group>"; };
 		D5B3D2A81B5E1F2A004B3DE6 /* RTTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTTableViewController.h; sourceTree = "<group>"; };
 		D5B3D2A91B5E1F2A004B3DE6 /* RTTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTTableViewController.m; sourceTree = "<group>"; };
+		D5B3D2AD1B5E445D004B3DE6 /* UIView+RTFrameEx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+RTFrameEx.h"; sourceTree = "<group>"; };
+		D5B3D2AE1B5E445D004B3DE6 /* UIView+RTFrameEx.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+RTFrameEx.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -203,16 +206,8 @@
 		D546D2E01B5CE56A00F025C1 /* UIView */ = {
 			isa = PBXGroup;
 			children = (
-				D5B3D28D1B5E1672004B3DE6 /* RTTabBarController.h */,
-				D5B3D28E1B5E1672004B3DE6 /* RTTabBarController.m */,
-				D5B3D2901B5E176E004B3DE6 /* RTNavigationController.h */,
-				D5B3D2911B5E176E004B3DE6 /* RTNavigationController.m */,
-				D5B3D2961B5E1859004B3DE6 /* RTBaseViewController.h */,
-				D5B3D2971B5E1859004B3DE6 /* RTBaseViewController.m */,
-				D5B3D2A51B5E1F1C004B3DE6 /* RTCollectionViewController.h */,
-				D5B3D2A61B5E1F1C004B3DE6 /* RTCollectionViewController.m */,
-				D5B3D2A81B5E1F2A004B3DE6 /* RTTableViewController.h */,
-				D5B3D2A91B5E1F2A004B3DE6 /* RTTableViewController.m */,
+				D5B3D2AC1B5E43CF004B3DE6 /* Category */,
+				D5B3D2AB1B5E43C9004B3DE6 /* Base */,
 			);
 			name = UIView;
 			sourceTree = "<group>";
@@ -290,6 +285,32 @@
 			children = (
 			);
 			name = Views;
+			sourceTree = "<group>";
+		};
+		D5B3D2AB1B5E43C9004B3DE6 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				D5B3D28D1B5E1672004B3DE6 /* RTTabBarController.h */,
+				D5B3D28E1B5E1672004B3DE6 /* RTTabBarController.m */,
+				D5B3D2901B5E176E004B3DE6 /* RTNavigationController.h */,
+				D5B3D2911B5E176E004B3DE6 /* RTNavigationController.m */,
+				D5B3D2961B5E1859004B3DE6 /* RTBaseViewController.h */,
+				D5B3D2971B5E1859004B3DE6 /* RTBaseViewController.m */,
+				D5B3D2A51B5E1F1C004B3DE6 /* RTCollectionViewController.h */,
+				D5B3D2A61B5E1F1C004B3DE6 /* RTCollectionViewController.m */,
+				D5B3D2A81B5E1F2A004B3DE6 /* RTTableViewController.h */,
+				D5B3D2A91B5E1F2A004B3DE6 /* RTTableViewController.m */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		D5B3D2AC1B5E43CF004B3DE6 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				D5B3D2AD1B5E445D004B3DE6 /* UIView+RTFrameEx.h */,
+				D5B3D2AE1B5E445D004B3DE6 /* UIView+RTFrameEx.m */,
+			);
+			name = Category;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -430,6 +451,7 @@
 				D5B3D28F1B5E1672004B3DE6 /* RTTabBarController.m in Sources */,
 				D546D2B61B5CD5A400F025C1 /* main.m in Sources */,
 				D5B3D2A41B5E196B004B3DE6 /* RTUserCenterViewController.m in Sources */,
+				D5B3D2AF1B5E445D004B3DE6 /* UIView+RTFrameEx.m in Sources */,
 				D5B3D2AA1B5E1F2A004B3DE6 /* RTTableViewController.m in Sources */,
 				D546D2E71B5CF60600F025C1 /* RTSystemUtil.m in Sources */,
 				D5B3D2A71B5E1F1C004B3DE6 /* RTCollectionViewController.m in Sources */,

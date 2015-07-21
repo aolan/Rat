@@ -10,10 +10,10 @@
 #import "RTNavigationController.h"
 #import "RTBaseViewController.h"
 
+#define RT_TAB_BAR_HEIGHT      49.0f
+
 @interface RTTabBarController ()
-
 @property(nonatomic,strong) NSArray *itemList;
-
 @end
 
 @implementation RTTabBarController
@@ -24,26 +24,33 @@
     [super viewDidLoad];
     
     [self loadViewControllers];
+    
+    [self initTabBarStyle];
 }
 
 - (void)loadViewControllers{
-
+    
     _itemList = @[@"RTHomeViewController", @"RTUserCenterViewController"];
 
     NSMutableArray *tmpArr = [NSMutableArray array];
-    
     for (NSString *className in _itemList) {
         RTBaseViewController *ctrl = [(RTBaseViewController *)[NSClassFromString(className) alloc] init];
         RTNavigationController *navCtrl = [[RTNavigationController alloc] initWithRootViewController:ctrl];
         [tmpArr addObject:navCtrl];
-        
-        UITabBarItem *tabBarItem = [[UITabBarItem alloc] initWithTitle:nil
-                                                                 image:RT_IMAGE(@"rt_home_icon_nor")
-                                                         selectedImage:RT_IMAGE(@"rt_home_icon_sel")];
-        ctrl.tabBarItem = tabBarItem;
     }
-    
     self.viewControllers = tmpArr;
+}
+
+- (void)initTabBarStyle{
+
+    self.tabBar.height = RT_TAB_BAR_HEIGHT;
+    self.tabBar.bottom = RT_SCREEN_HEIGHT;
+    
+    for (UITabBarItem *tabBarItem in self.tabBar.items) {
+        
+        tabBarItem.selectedImage = RT_IMAGE(@"rt_home_icon_sel");
+ 
+    }
 }
 
 

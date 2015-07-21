@@ -33,6 +33,7 @@
     if (RT_IS_NULL(_containView)) {
         _containView = [[UIView alloc] init];
         _containView.backgroundColor = [UIColor whiteColor];
+        _containView.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
         [self.view addSubview:_containView];
     }
     return _containView;

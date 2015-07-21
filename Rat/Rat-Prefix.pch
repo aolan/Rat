@@ -20,6 +20,7 @@
 
 #import "RTShortDefine.h"
 #import "RTConfigDefine.h"
+#import "UIView+RTFrameEx.h"
 
 
 #endif
