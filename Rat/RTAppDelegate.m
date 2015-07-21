@@ -7,9 +7,11 @@
 //
 
 #import "RTAppDelegate.h"
+#import "RTTabBarController.h"
 
 @interface RTAppDelegate ()
 
+@property(nonatomic,strong) RTTabBarController  *tabBarController;
 @end
 
 @implementation RTAppDelegate
@@ -21,6 +23,10 @@
     _window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     _window.backgroundColor = [UIColor whiteColor];
     [_window makeKeyAndVisible];
+    
+    //创建根控制器
+    _tabBarController = [[RTTabBarController alloc] init];
+    _window.rootViewController = _tabBarController;
     
     return YES;
 }

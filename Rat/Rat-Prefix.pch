@@ -18,5 +18,8 @@
 #import <FMDB/FMDB.h>
 #import "Reachability.h"
 
+#import "RTShortDefine.h"
+#import "RTConfigDefine.h"
+
 
 #endif

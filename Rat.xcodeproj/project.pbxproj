@@ -13,6 +13,13 @@
 		D546D2D01B5CD5A400F025C1 /* RatTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D546D2CF1B5CD5A400F025C1 /* RatTests.m */; };
 		D546D2DB1B5CDD6D00F025C1 /* RTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D546D2DA1B5CDD6D00F025C1 /* RTAppDelegate.m */; };
 		D546D2E71B5CF60600F025C1 /* RTSystemUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = D546D2E61B5CF60600F025C1 /* RTSystemUtil.m */; };
+		D5B3D28F1B5E1672004B3DE6 /* RTTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5B3D28E1B5E1672004B3DE6 /* RTTabBarController.m */; };
+		D5B3D2921B5E176E004B3DE6 /* RTNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5B3D2911B5E176E004B3DE6 /* RTNavigationController.m */; };
+		D5B3D2981B5E1859004B3DE6 /* RTBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5B3D2971B5E1859004B3DE6 /* RTBaseViewController.m */; };
+		D5B3D29F1B5E1943004B3DE6 /* RTHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5B3D29E1B5E1943004B3DE6 /* RTHomeViewController.m */; };
+		D5B3D2A41B5E196B004B3DE6 /* RTUserCenterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5B3D2A31B5E196B004B3DE6 /* RTUserCenterViewController.m */; };
+		D5B3D2A71B5E1F1C004B3DE6 /* RTCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5B3D2A61B5E1F1C004B3DE6 /* RTCollectionViewController.m */; };
+		D5B3D2AA1B5E1F2A004B3DE6 /* RTTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5B3D2A91B5E1F2A004B3DE6 /* RTTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +51,20 @@
 		D546D2E91B5CFD8300F025C1 /* Rat-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Rat-Prefix.pch"; sourceTree = "<group>"; };
 		D546D2EA1B5D051500F025C1 /* RTShortDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTShortDefine.h; sourceTree = "<group>"; };
 		D546D2EB1B5D0BE900F025C1 /* RTConfigDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RTConfigDefine.h; sourceTree = "<group>"; };
+		D5B3D28D1B5E1672004B3DE6 /* RTTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTTabBarController.h; sourceTree = "<group>"; };
+		D5B3D28E1B5E1672004B3DE6 /* RTTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTTabBarController.m; sourceTree = "<group>"; };
+		D5B3D2901B5E176E004B3DE6 /* RTNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTNavigationController.h; sourceTree = "<group>"; };
+		D5B3D2911B5E176E004B3DE6 /* RTNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTNavigationController.m; sourceTree = "<group>"; };
+		D5B3D2961B5E1859004B3DE6 /* RTBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTBaseViewController.h; sourceTree = "<group>"; };
+		D5B3D2971B5E1859004B3DE6 /* RTBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTBaseViewController.m; sourceTree = "<group>"; };
+		D5B3D29D1B5E1943004B3DE6 /* RTHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTHomeViewController.h; sourceTree = "<group>"; };
+		D5B3D29E1B5E1943004B3DE6 /* RTHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTHomeViewController.m; sourceTree = "<group>"; };
+		D5B3D2A21B5E196B004B3DE6 /* RTUserCenterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTUserCenterViewController.h; sourceTree = "<group>"; };
+		D5B3D2A31B5E196B004B3DE6 /* RTUserCenterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTUserCenterViewController.m; sourceTree = "<group>"; };
+		D5B3D2A51B5E1F1C004B3DE6 /* RTCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTCollectionViewController.h; sourceTree = "<group>"; };
+		D5B3D2A61B5E1F1C004B3DE6 /* RTCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTCollectionViewController.m; sourceTree = "<group>"; };
+		D5B3D2A81B5E1F2A004B3DE6 /* RTTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTTableViewController.h; sourceTree = "<group>"; };
+		D5B3D2A91B5E1F2A004B3DE6 /* RTTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -173,6 +194,8 @@
 		D546D2DF1B5CE55A00F025C1 /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				D5B3D29A1B5E191E004B3DE6 /* User */,
+				D5B3D2991B5E1917004B3DE6 /* Home */,
 			);
 			name = UI;
 			sourceTree = "<group>";
@@ -180,6 +203,16 @@
 		D546D2E01B5CE56A00F025C1 /* UIView */ = {
 			isa = PBXGroup;
 			children = (
+				D5B3D28D1B5E1672004B3DE6 /* RTTabBarController.h */,
+				D5B3D28E1B5E1672004B3DE6 /* RTTabBarController.m */,
+				D5B3D2901B5E176E004B3DE6 /* RTNavigationController.h */,
+				D5B3D2911B5E176E004B3DE6 /* RTNavigationController.m */,
+				D5B3D2961B5E1859004B3DE6 /* RTBaseViewController.h */,
+				D5B3D2971B5E1859004B3DE6 /* RTBaseViewController.m */,
+				D5B3D2A51B5E1F1C004B3DE6 /* RTCollectionViewController.h */,
+				D5B3D2A61B5E1F1C004B3DE6 /* RTCollectionViewController.m */,
+				D5B3D2A81B5E1F2A004B3DE6 /* RTTableViewController.h */,
+				D5B3D2A91B5E1F2A004B3DE6 /* RTTableViewController.m */,
 			);
 			name = UIView;
 			sourceTree = "<group>";
@@ -207,6 +240,56 @@
 				D546D2DA1B5CDD6D00F025C1 /* RTAppDelegate.m */,
 			);
 			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		D5B3D2991B5E1917004B3DE6 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				D5B3D29C1B5E192D004B3DE6 /* Views */,
+				D5B3D29B1B5E1926004B3DE6 /* Controllers */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		D5B3D29A1B5E191E004B3DE6 /* User */ = {
+			isa = PBXGroup;
+			children = (
+				D5B3D2A11B5E195D004B3DE6 /* Views */,
+				D5B3D2A01B5E1958004B3DE6 /* Controllers */,
+			);
+			name = User;
+			sourceTree = "<group>";
+		};
+		D5B3D29B1B5E1926004B3DE6 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D5B3D29D1B5E1943004B3DE6 /* RTHomeViewController.h */,
+				D5B3D29E1B5E1943004B3DE6 /* RTHomeViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		D5B3D29C1B5E192D004B3DE6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		D5B3D2A01B5E1958004B3DE6 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D5B3D2A21B5E196B004B3DE6 /* RTUserCenterViewController.h */,
+				D5B3D2A31B5E196B004B3DE6 /* RTUserCenterViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		D5B3D2A11B5E195D004B3DE6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -342,9 +425,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D5B3D2921B5E176E004B3DE6 /* RTNavigationController.m in Sources */,
 				D546D2DB1B5CDD6D00F025C1 /* RTAppDelegate.m in Sources */,
+				D5B3D28F1B5E1672004B3DE6 /* RTTabBarController.m in Sources */,
 				D546D2B61B5CD5A400F025C1 /* main.m in Sources */,
+				D5B3D2A41B5E196B004B3DE6 /* RTUserCenterViewController.m in Sources */,
+				D5B3D2AA1B5E1F2A004B3DE6 /* RTTableViewController.m in Sources */,
 				D546D2E71B5CF60600F025C1 /* RTSystemUtil.m in Sources */,
+				D5B3D2A71B5E1F1C004B3DE6 /* RTCollectionViewController.m in Sources */,
+				D5B3D2981B5E1859004B3DE6 /* RTBaseViewController.m in Sources */,
+				D5B3D29F1B5E1943004B3DE6 /* RTHomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
