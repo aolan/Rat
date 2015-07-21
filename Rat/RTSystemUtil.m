@@ -7,7 +7,6 @@
 //
 
 #import "RTSystemUtil.h"
-#import <UIKit/UIKit.h>
 
 @implementation RTSystemUtil
 

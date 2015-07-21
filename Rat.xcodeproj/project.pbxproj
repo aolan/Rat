@@ -407,6 +407,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "\"$(SRCROOT)/Pods/Headers/\"";
 			};
 			name = Debug;
 		};
@@ -443,6 +444,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "\"$(SRCROOT)/Pods/Headers/\"";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -475,6 +477,7 @@
 		};
 		D546D2D71B5CD5A400F025C1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6138EA8D6D6B562E60D07746 /* Pods-Rat.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -494,6 +497,7 @@
 		};
 		D546D2D81B5CD5A400F025C1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42B05B4CC8102C03ACDDDA76 /* Pods-Rat.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (

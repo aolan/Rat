@@ -6,12 +6,17 @@
 //  Copyright (c) 2015年 zodiac. All rights reserved.
 //
 
-#ifndef Rat_Rat_Prefix_pch
-#define Rat_Rat_Prefix_pch
+#import <Availability.h>
+
+
+#ifdef __OBJC__
 
 #import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
 #import "RTAppDelegate.h"
-//#import "Masonry.h"
-//#import "Reachability.h"
+#import "Masonry.h"
+#import <FMDB/FMDB.h>
+#import "Reachability.h"
+
 
 #endif
