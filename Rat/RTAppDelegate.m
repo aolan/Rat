@@ -25,8 +25,7 @@
     [_window makeKeyAndVisible];
     
     //创建根控制器
-    _tabBarController = [[RTTabBarController alloc] init];
-    _window.rootViewController = _tabBarController;
+    _window.rootViewController = [RTTabBarController shareInstance];
     
     return YES;
 }

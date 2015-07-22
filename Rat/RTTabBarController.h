@@ -10,4 +10,8 @@
 
 @interface RTTabBarController : UITabBarController
 
++ (RTTabBarController *)shareInstance;
+
+- (void)showTabbarWithIndex:(NSInteger)index;
+
 @end

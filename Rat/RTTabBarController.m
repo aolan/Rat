@@ -18,6 +18,27 @@
 
 @implementation RTTabBarController
 
+#pragma mark -
+#pragma mark Interface Methods
+
++ (RTTabBarController *)shareInstance {
+    
+    static dispatch_once_t once;
+    static RTTabBarController *instance;
+    dispatch_once(&once, ^{
+        instance = [self new];
+    });
+    return instance;
+}
+
+- (void)showTabbarWithIndex:(NSInteger)index{
+    
+    self.selectedIndex = index;
+}
+
+
+#pragma mark -
+#pragma mark Lifycycle
 
 - (void)viewDidLoad {
     
