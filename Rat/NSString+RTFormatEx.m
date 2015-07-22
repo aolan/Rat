@@ -36,5 +36,10 @@
     return ( NSString *)CFBridgingRelease(CFURLCreateStringByReplacingPercentEscapesUsingEncoding(kCFAllocatorDefault, (CFStringRef)self, CFSTR(""), kCFStringEncodingUTF8));
 }
 
+- (NSString *)rt_UTF8Encodeing{
+    NSStringEncoding enc = CFStringConvertEncodingToNSStringEncoding(kCFStringEncodingUTF8);
+    return [self stringByAddingPercentEscapesUsingEncoding:enc];
+}
+
 
 @end
