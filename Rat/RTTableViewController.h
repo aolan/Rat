@@ -17,6 +17,8 @@ typedef NS_OPTIONS(NSUInteger, RTTableViewStyle) {
 
 @interface RTTableViewController : RTBaseViewController<UITableViewDataSource, UITableViewDelegate>
 
+@property(nonatomic, strong, readonly) UITableView *tableView;
+
 
 /**
  *  设置tableview的样式

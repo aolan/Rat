@@ -13,6 +13,10 @@
 		D546D2D01B5CD5A400F025C1 /* RatTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D546D2CF1B5CD5A400F025C1 /* RatTests.m */; };
 		D546D2DB1B5CDD6D00F025C1 /* RTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D546D2DA1B5CDD6D00F025C1 /* RTAppDelegate.m */; };
 		D546D2E71B5CF60600F025C1 /* RTSystemUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = D546D2E61B5CF60600F025C1 /* RTSystemUtil.m */; };
+		D55B29591B609C8600AC6562 /* RTReactView.m in Sources */ = {isa = PBXBuildFile; fileRef = D55B29581B609C8600AC6562 /* RTReactView.m */; };
+		D55B295C1B60AEE300AC6562 /* RTTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D55B295B1B60AEE300AC6562 /* RTTableViewCell.m */; };
+		D55B295F1B60AEF400AC6562 /* RTHomeItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D55B295E1B60AEF400AC6562 /* RTHomeItemCell.m */; };
+		D55B29621B60B4DE00AC6562 /* RTReactNativeController.m in Sources */ = {isa = PBXBuildFile; fileRef = D55B29611B60B4DE00AC6562 /* RTReactNativeController.m */; };
 		D5B3D28F1B5E1672004B3DE6 /* RTTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5B3D28E1B5E1672004B3DE6 /* RTTabBarController.m */; };
 		D5B3D2921B5E176E004B3DE6 /* RTNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5B3D2911B5E176E004B3DE6 /* RTNavigationController.m */; };
 		D5B3D2981B5E1859004B3DE6 /* RTBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5B3D2971B5E1859004B3DE6 /* RTBaseViewController.m */; };
@@ -53,6 +57,14 @@
 		D546D2E91B5CFD8300F025C1 /* Rat-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Rat-Prefix.pch"; sourceTree = "<group>"; };
 		D546D2EA1B5D051500F025C1 /* RTShortDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTShortDefine.h; sourceTree = "<group>"; };
 		D546D2EB1B5D0BE900F025C1 /* RTConfigDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RTConfigDefine.h; sourceTree = "<group>"; };
+		D55B29571B609C8600AC6562 /* RTReactView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTReactView.h; sourceTree = "<group>"; };
+		D55B29581B609C8600AC6562 /* RTReactView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTReactView.m; sourceTree = "<group>"; };
+		D55B295A1B60AEE300AC6562 /* RTTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTTableViewCell.h; sourceTree = "<group>"; };
+		D55B295B1B60AEE300AC6562 /* RTTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTTableViewCell.m; sourceTree = "<group>"; };
+		D55B295D1B60AEF400AC6562 /* RTHomeItemCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTHomeItemCell.h; sourceTree = "<group>"; };
+		D55B295E1B60AEF400AC6562 /* RTHomeItemCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTHomeItemCell.m; sourceTree = "<group>"; };
+		D55B29601B60B4DE00AC6562 /* RTReactNativeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTReactNativeController.h; sourceTree = "<group>"; };
+		D55B29611B60B4DE00AC6562 /* RTReactNativeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTReactNativeController.m; sourceTree = "<group>"; };
 		D5B3D28D1B5E1672004B3DE6 /* RTTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTTabBarController.h; sourceTree = "<group>"; };
 		D5B3D28E1B5E1672004B3DE6 /* RTTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTTabBarController.m; sourceTree = "<group>"; };
 		D5B3D2901B5E176E004B3DE6 /* RTNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTNavigationController.h; sourceTree = "<group>"; };
@@ -271,6 +283,10 @@
 		D5B3D29C1B5E192D004B3DE6 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				D55B29571B609C8600AC6562 /* RTReactView.h */,
+				D55B29581B609C8600AC6562 /* RTReactView.m */,
+				D55B295D1B60AEF400AC6562 /* RTHomeItemCell.h */,
+				D55B295E1B60AEF400AC6562 /* RTHomeItemCell.m */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -304,6 +320,10 @@
 				D5B3D2A61B5E1F1C004B3DE6 /* RTCollectionViewController.m */,
 				D5B3D2A81B5E1F2A004B3DE6 /* RTTableViewController.h */,
 				D5B3D2A91B5E1F2A004B3DE6 /* RTTableViewController.m */,
+				D55B295A1B60AEE300AC6562 /* RTTableViewCell.h */,
+				D55B295B1B60AEE300AC6562 /* RTTableViewCell.m */,
+				D55B29601B60B4DE00AC6562 /* RTReactNativeController.h */,
+				D55B29611B60B4DE00AC6562 /* RTReactNativeController.m */,
 			);
 			name = Base;
 			sourceTree = "<group>";
@@ -462,15 +482,19 @@
 				D5B3D2921B5E176E004B3DE6 /* RTNavigationController.m in Sources */,
 				D546D2DB1B5CDD6D00F025C1 /* RTAppDelegate.m in Sources */,
 				D5B3D28F1B5E1672004B3DE6 /* RTTabBarController.m in Sources */,
+				D55B295F1B60AEF400AC6562 /* RTHomeItemCell.m in Sources */,
+				D55B29621B60B4DE00AC6562 /* RTReactNativeController.m in Sources */,
 				D546D2B61B5CD5A400F025C1 /* main.m in Sources */,
 				D5B3D2A41B5E196B004B3DE6 /* RTUserCenterViewController.m in Sources */,
 				D5B3D2AF1B5E445D004B3DE6 /* UIView+RTFrameEx.m in Sources */,
 				D5B3D2AA1B5E1F2A004B3DE6 /* RTTableViewController.m in Sources */,
+				D55B295C1B60AEE300AC6562 /* RTTableViewCell.m in Sources */,
 				D546D2E71B5CF60600F025C1 /* RTSystemUtil.m in Sources */,
 				D5B3D2A71B5E1F1C004B3DE6 /* RTCollectionViewController.m in Sources */,
 				D5B3D2981B5E1859004B3DE6 /* RTBaseViewController.m in Sources */,
 				D5B3D29F1B5E1943004B3DE6 /* RTHomeViewController.m in Sources */,
 				D5B3D2B31B5E5C54004B3DE6 /* NSString+RTFormatEx.m in Sources */,
+				D55B29591B609C8600AC6562 /* RTReactView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

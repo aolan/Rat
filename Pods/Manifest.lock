@@ -11,6 +11,11 @@ PODS:
   - MJRefresh (1.4.6)
   - NSDictionary+Accessors (1.0.0)
   - Reachability (3.2)
+  - React (0.8.0-rc.2):
+    - React/Core (= 0.8.0-rc.2)
+  - React/Core (0.8.0-rc.2)
+  - React/RCTText (0.8.0-rc.2):
+    - React/Core
   - SDWebImage (3.7.1):
     - SDWebImage/Core (= 3.7.1)
   - SDWebImage/Core (3.7.1)
@@ -31,6 +36,8 @@ DEPENDENCIES:
   - MJRefresh (= 1.4.6)
   - NSDictionary+Accessors (= 1.0.0)
   - Reachability (= 3.2)
+  - React (~> 0.8.0-rc.2)
+  - React/RCTText
   - SDWebImage (= 3.7.1)
   - SSKeychain (~> 1.2.3)
   - TalkingDataAnalytics-NO-IDFA (= 1.2.70)
@@ -49,6 +56,7 @@ SPEC CHECKSUMS:
   MJRefresh: 2eaa3fd8f67fbb86497840fb0167446f7eb61dc7
   NSDictionary+Accessors: 5c453c028da416525428c938602c7c96704a9bbc
   Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
+  React: 62e184ac9d29f8aa3794884ac25389cfdb5ed6e7
   SDWebImage: ed3095af2ff88b436426037444979b917f6c5575
   SSKeychain: 3f42991739c6c60a9cf1bbd4dff6c0d3694bcf3d
   TalkingDataAnalytics-NO-IDFA: d644751c394ee1e21a7ee66e65f1e25cc3ed178e

@@ -6,8 +6,9 @@
 //  Copyright (c) 2015年 zodiac. All rights reserved.
 //
 
-#import "RTBaseViewController.h"
+#import "RTTableViewController.h"
 
-@interface RTHomeViewController : RTBaseViewController
+@interface RTHomeViewController : RTTableViewController
+
 
 @end

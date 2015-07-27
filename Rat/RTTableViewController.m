@@ -11,7 +11,7 @@
 
 @interface RTTableViewController ()
 
-@property(nonatomic,strong) UITableView *tableView;
+@property(nonatomic, strong, readwrite) UITableView *tableView;
 
 @end
 
