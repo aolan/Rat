@@ -21,6 +21,7 @@ target 'Rat' do
         pod 'UITableView+FDTemplateLayoutCell', '~> 1.3'
 	pod 'React', '~> 0.8.0-rc.2'
 	pod 'React/RCTText'
+        pod 'OCMock', '~> 3.1.2'
 end
 
 target 'RatTests' do

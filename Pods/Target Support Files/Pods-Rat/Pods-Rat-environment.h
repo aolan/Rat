@@ -60,6 +60,12 @@
 #define COCOAPODS_VERSION_MINOR_NSDictionary_Accessors 0
 #define COCOAPODS_VERSION_PATCH_NSDictionary_Accessors 0
 
+// OCMock
+#define COCOAPODS_POD_AVAILABLE_OCMock
+#define COCOAPODS_VERSION_MAJOR_OCMock 3
+#define COCOAPODS_VERSION_MINOR_OCMock 1
+#define COCOAPODS_VERSION_PATCH_OCMock 2
+
 // Reachability
 #define COCOAPODS_POD_AVAILABLE_Reachability
 #define COCOAPODS_VERSION_MAJOR_Reachability 3
