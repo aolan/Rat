@@ -12,69 +12,106 @@
 
 #define RT_TAB_BAR_HEIGHT      49.0f
 
-@interface RTTabBarController ()
-@property(nonatomic,strong) NSArray *itemList;
-@end
-
 @implementation RTTabBarController
 
-#pragma mark -
-#pragma mark Interface Methods
 
-+ (RTTabBarController *)shareInstance {
-    
+#pragma mark - Interface Methods
+
++ (id)shareInstance{
     static dispatch_once_t once;
-    static RTTabBarController *instance;
+    static RTTabBarController *instance = nil;
     dispatch_once(&once, ^{
-        instance = [self new];
+        instance = [[self alloc] init];
     });
     return instance;
 }
 
-- (void)showTabbarWithIndex:(NSInteger)index{
-    
+- (void)switchIndex:(NSInteger)index{
     self.selectedIndex = index;
 }
 
-
-#pragma mark -
-#pragma mark Lifycycle
+#pragma mark - Lifycycle
 
 - (void)viewDidLoad {
     
     [super viewDidLoad];
     
     [self loadViewControllers];
-    
-    [self initTabBarStyle];
 }
 
 - (void)loadViewControllers{
     
-    _itemList = @[@"RTHomeViewController", @"RTUserCenterViewController"];
-
-    NSMutableArray *tmpArr = [NSMutableArray array];
-    for (NSString *className in _itemList) {
-        RTBaseViewController *ctrl = [(RTBaseViewController *)[NSClassFromString(className) alloc] init];
-        RTNavigationController *navCtrl = [[RTNavigationController alloc] initWithRootViewController:ctrl];
-        [tmpArr addObject:navCtrl];
-    }
-    self.viewControllers = tmpArr;
-}
-
-- (void)initTabBarStyle{
-
-    self.tabBar.height = RT_TAB_BAR_HEIGHT;
-    self.tabBar.bottom = RT_SCREEN_HEIGHT;
-    
-    for (UITabBarItem *tabBarItem in self.tabBar.items) {
-        
-        tabBarItem.selectedImage = RT_IMAGE(@"rt_home_icon_sel");
+    NSArray *nameStrings = [self rt_viewControllersForTabBarController];
+    NSArray *selImages = [self rt_tabbarSelectedImageForTabBarController];
+    NSArray *norImages = [self rt_tabbarNormalImageForTabBarController];
+    NSArray *itemTitles = [self rt_tabbarTitleForTabBarController];
+    NSDictionary *selAttributes = [self rt_tabbarTitleAttributesSelected];
+    NSDictionary *norAttributes = [self rt_tabbarTitleAttributesNormal];
  
+    NSMutableArray *viewControllers = [NSMutableArray array];
+    
+    for (int i = 0; i < nameStrings.count ; i++) {
+        
+        NSString *className = [nameStrings objectAtIndex:i];
+        NSString *itemTitleStr = (itemTitles.count > i)? itemTitles[i] : nil;
+        UIImage  *selImage = (selImages.count > i)? selImages[i] : nil;
+        UIImage  *norImage = (norImages.count > i)? norImages[i] : nil;
+        
+        RTBaseViewController *ctrl = [[NSClassFromString(className) alloc] init];
+        RTNavigationController *navCtrl = [[RTNavigationController alloc] initWithRootViewController:ctrl];
+        [viewControllers addObject:navCtrl];
+        
+        //设置tabbar
+        UITabBarItem *tabBarItem = [[UITabBarItem alloc] initWithTitle:itemTitleStr
+                                                                 image:norImage
+                                                         selectedImage:selImage];
+        if (norAttributes) {
+            [tabBarItem setTitleTextAttributes:norAttributes forState:UIControlStateNormal];
+        }
+        if (selAttributes) {
+            [tabBarItem setTitleTextAttributes:selAttributes forState:UIControlStateSelected];
+        }
+        ctrl.tabBarItem = tabBarItem;
     }
+    
+    self.viewControllers = viewControllers;
+
+    [self.tabBar setTintColor:selAttributes[NSForegroundColorAttributeName]];
+    [self.tabBar setTranslucent:YES];
 }
 
 
+#pragma mark - Override By SubClass
 
+- (NSArray *)rt_viewControllersForTabBarController{
+    //Override By SubClass
+    return @[];
+}
+
+- (NSArray *)rt_tabbarSelectedImageForTabBarController{
+    //Override By SubClass
+    return @[];
+}
+
+- (NSArray *)rt_tabbarNormalImageForTabBarController{
+    //Override By SubClass
+    return @[];
+}
+
+- (NSArray *)rt_tabbarTitleForTabBarController{
+    //Override By SubClass
+    return @[];
+}
+
+- (NSDictionary *)rt_tabbarTitleAttributesNormal{
+    //Override By SubClass
+    return nil;
+}
+
+- (NSDictionary *)rt_tabbarTitleAttributesSelected{
+    //Override By SubClass
+    return nil;
+}
 
 @end
+

@@ -7,15 +7,9 @@
 //
 
 #import "RTAppDelegate.h"
-#import "RTTabBarController.h"
-
-@interface RTAppDelegate ()
-
-@property(nonatomic,strong) RTTabBarController  *tabBarController;
-@end
+#import "RTRootViewController.h"
 
 @implementation RTAppDelegate
-
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
 
@@ -25,7 +19,7 @@
     [_window makeKeyAndVisible];
     
     //创建根控制器
-    _window.rootViewController = [RTTabBarController shareInstance];
+    _window.rootViewController = [RTRootViewController shareInstance];
     
     return YES;
 }

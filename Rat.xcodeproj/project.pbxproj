@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0468F694717D77ECFCFC61FF /* libPods-Rat.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 52EAEBFD0C27635B58AF8474 /* libPods-Rat.a */; };
+		D52432E21B8D7124001AC850 /* UIImage+RTExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = D52432E11B8D7124001AC850 /* UIImage+RTExtension.m */; };
 		D546D2B61B5CD5A400F025C1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D546D2B51B5CD5A400F025C1 /* main.m */; };
 		D546D2C11B5CD5A400F025C1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D546D2C01B5CD5A400F025C1 /* Images.xcassets */; };
 		D546D2D01B5CD5A400F025C1 /* RatTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D546D2CF1B5CD5A400F025C1 /* RatTests.m */; };
@@ -18,6 +19,7 @@
 		D55B295F1B60AEF400AC6562 /* RTHomeItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D55B295E1B60AEF400AC6562 /* RTHomeItemCell.m */; };
 		D55B29621B60B4DE00AC6562 /* RTReactNativeController.m in Sources */ = {isa = PBXBuildFile; fileRef = D55B29611B60B4DE00AC6562 /* RTReactNativeController.m */; };
 		D57F32621B8C7C5400CC8432 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D57F32611B8C7C5400CC8432 /* SenTestingKit.framework */; };
+		D57F32661B8C8B3600CC8432 /* RTRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D57F32651B8C8B3600CC8432 /* RTRootViewController.m */; };
 		D5B3D28F1B5E1672004B3DE6 /* RTTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5B3D28E1B5E1672004B3DE6 /* RTTabBarController.m */; };
 		D5B3D2921B5E176E004B3DE6 /* RTNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5B3D2911B5E176E004B3DE6 /* RTNavigationController.m */; };
 		D5B3D2981B5E1859004B3DE6 /* RTBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5B3D2971B5E1859004B3DE6 /* RTBaseViewController.m */; };
@@ -43,6 +45,8 @@
 		42B05B4CC8102C03ACDDDA76 /* Pods-Rat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rat.release.xcconfig"; path = "Pods/Target Support Files/Pods-Rat/Pods-Rat.release.xcconfig"; sourceTree = "<group>"; };
 		52EAEBFD0C27635B58AF8474 /* libPods-Rat.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Rat.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6138EA8D6D6B562E60D07746 /* Pods-Rat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Rat/Pods-Rat.debug.xcconfig"; sourceTree = "<group>"; };
+		D52432E01B8D7124001AC850 /* UIImage+RTExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+RTExtension.h"; sourceTree = "<group>"; };
+		D52432E11B8D7124001AC850 /* UIImage+RTExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+RTExtension.m"; sourceTree = "<group>"; };
 		D546D2B01B5CD5A400F025C1 /* Rat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D546D2B41B5CD5A400F025C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D546D2B51B5CD5A400F025C1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -67,6 +71,8 @@
 		D55B29601B60B4DE00AC6562 /* RTReactNativeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTReactNativeController.h; sourceTree = "<group>"; };
 		D55B29611B60B4DE00AC6562 /* RTReactNativeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTReactNativeController.m; sourceTree = "<group>"; };
 		D57F32611B8C7C5400CC8432 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		D57F32641B8C8B3600CC8432 /* RTRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTRootViewController.h; sourceTree = "<group>"; };
+		D57F32651B8C8B3600CC8432 /* RTRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTRootViewController.m; sourceTree = "<group>"; };
 		D5B3D28D1B5E1672004B3DE6 /* RTTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTTabBarController.h; sourceTree = "<group>"; };
 		D5B3D28E1B5E1672004B3DE6 /* RTTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTTabBarController.m; sourceTree = "<group>"; };
 		D5B3D2901B5E176E004B3DE6 /* RTNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTNavigationController.h; sourceTree = "<group>"; };
@@ -218,6 +224,7 @@
 		D546D2DF1B5CE55A00F025C1 /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				D57F32631B8C8B0C00CC8432 /* TabBar */,
 				D5B3D29A1B5E191E004B3DE6 /* User */,
 				D5B3D2991B5E1917004B3DE6 /* Home */,
 			);
@@ -255,6 +262,15 @@
 				D546D2DA1B5CDD6D00F025C1 /* RTAppDelegate.m */,
 			);
 			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		D57F32631B8C8B0C00CC8432 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				D57F32641B8C8B3600CC8432 /* RTRootViewController.h */,
+				D57F32651B8C8B3600CC8432 /* RTRootViewController.m */,
+			);
+			path = TabBar;
 			sourceTree = "<group>";
 		};
 		D5B3D2991B5E1917004B3DE6 /* Home */ = {
@@ -339,6 +355,8 @@
 				D5B3D2AE1B5E445D004B3DE6 /* UIView+RTFrameEx.m */,
 				D5B3D2B11B5E5C54004B3DE6 /* NSString+RTFormatEx.h */,
 				D5B3D2B21B5E5C54004B3DE6 /* NSString+RTFormatEx.m */,
+				D52432E01B8D7124001AC850 /* UIImage+RTExtension.h */,
+				D52432E11B8D7124001AC850 /* UIImage+RTExtension.m */,
 			);
 			name = Category;
 			sourceTree = "<group>";
@@ -497,6 +515,8 @@
 				D5B3D2A71B5E1F1C004B3DE6 /* RTCollectionViewController.m in Sources */,
 				D5B3D2981B5E1859004B3DE6 /* RTBaseViewController.m in Sources */,
 				D5B3D29F1B5E1943004B3DE6 /* RTHomeViewController.m in Sources */,
+				D57F32661B8C8B3600CC8432 /* RTRootViewController.m in Sources */,
+				D52432E21B8D7124001AC850 /* UIImage+RTExtension.m in Sources */,
 				D5B3D2B31B5E5C54004B3DE6 /* NSString+RTFormatEx.m in Sources */,
 				D55B29591B609C8600AC6562 /* RTReactView.m in Sources */,
 			);
