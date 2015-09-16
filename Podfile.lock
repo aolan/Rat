@@ -1,5 +1,6 @@
 PODS:
   - AliPay (2.1.2)
+  - Bugtags (1.0.6)
   - FMDB (2.5):
     - FMDB/standard (= 2.5)
   - FMDB/common (2.5)
@@ -30,6 +31,7 @@ PODS:
 
 DEPENDENCIES:
   - AliPay (= 2.1.2)
+  - Bugtags (~> 1.0.6)
   - FMDB (= 2.5)
   - IQKeyboardManager (= 3.2.3)
   - Masonry (= 0.6.1)
@@ -51,6 +53,7 @@ DEPENDENCIES:
 
 SPEC CHECKSUMS:
   AliPay: 2bd35a4e486d2a8c035043023cd846e886bb21d1
+  Bugtags: b4119a1d2e1ecf4fc6e12b69afa2454a22242479
   FMDB: 96e8f1bcc1329e269330f99770ad4285d9003e52
   IQKeyboardManager: 6ca5c54e3776eb54af4c7caf515833f3cd761d59
   Masonry: 4972309f2f134de9dd312f4dc4a21359b50e6caa

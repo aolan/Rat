@@ -52,6 +52,7 @@ install_resource()
 }
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_resource "AliPay/AlipaySDK.bundle"
+  install_resource "Bugtags/Bugtags.bundle"
   install_resource "IQKeyboardManager/IQKeyBoardManager/Resources/IQKeyboardManager.bundle"
   install_resource "MJRefresh/MJRefreshExample/MJRefreshExample/MJRefresh/MJRefresh.bundle"
   install_resource "XHImageViewer/Source/Resources/1_1280x800-1.jpeg"
@@ -63,6 +64,7 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_resource "AliPay/AlipaySDK.bundle"
+  install_resource "Bugtags/Bugtags.bundle"
   install_resource "IQKeyboardManager/IQKeyBoardManager/Resources/IQKeyboardManager.bundle"
   install_resource "MJRefresh/MJRefreshExample/MJRefreshExample/MJRefresh/MJRefresh.bundle"
   install_resource "XHImageViewer/Source/Resources/1_1280x800-1.jpeg"
