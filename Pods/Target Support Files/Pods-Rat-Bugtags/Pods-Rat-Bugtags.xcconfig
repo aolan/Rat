@@ -1,0 +1,2 @@
+PODS_RAT_BUGTAGS_FRAMEWORK_SEARCH_PATHS = "$(PODS_ROOT)/Bugtags/"
+PODS_RAT_BUGTAGS_OTHER_LDFLAGS = -framework "AVFoundation" -framework "Bugtags" -framework "CFNetwork" -framework "CoreLocation" -framework "ImageIO" -framework "Security" -framework "SystemConfiguration" -framework "UIKit"

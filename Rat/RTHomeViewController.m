@@ -11,10 +11,14 @@
 #import "RTReactView.h"
 #import "RTHomeItemCell.h"
 #import "RTReactNativeController.h"
+#import "RTBugTagsViewController.h"
 
 static NSString *const  kRTHomeViewControllerCellIdentifier = @"kRTHomeViewControllerCellIdentifier";
 
 @interface RTHomeViewController ()
+
+@property   (nonatomic, strong) NSArray *itemList;
+
 @end
 
 @implementation RTHomeViewController
@@ -24,6 +28,9 @@ static NSString *const  kRTHomeViewControllerCellIdentifier = @"kRTHomeViewContr
     self = [super init];
     if (self) {
         self.title = @"首页";
+        
+        _itemList = @[@"Reative", @"BugTags"];
+        
     }
     return self;
 }
@@ -32,6 +39,7 @@ static NSString *const  kRTHomeViewControllerCellIdentifier = @"kRTHomeViewContr
     
     [super viewDidLoad];
     
+    self.tableView.separatorStyle = UITableViewCellSeparatorStyleSingleLine;
     [self.tableView registerClass:[RTHomeItemCell class] forCellReuseIdentifier:kRTHomeViewControllerCellIdentifier];
 }
 
@@ -39,7 +47,7 @@ static NSString *const  kRTHomeViewControllerCellIdentifier = @"kRTHomeViewContr
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
     
-    return 10;
+    return _itemList.count;
 }
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
@@ -49,14 +57,33 @@ static NSString *const  kRTHomeViewControllerCellIdentifier = @"kRTHomeViewContr
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
     RTHomeItemCell *cell = [tableView dequeueReusableCellWithIdentifier:kRTHomeViewControllerCellIdentifier];
-    cell.textLabel.text = @"关于我们";
+    cell.textLabel.text = [_itemList objectAtIndex:indexPath.row];
     return cell;
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     
-    RTReactNativeController *reactCtrl = [[RTReactNativeController alloc] init];
-    [self.navigationController pushViewController:reactCtrl animated:YES];
+    switch (indexPath.row) {
+            
+        case 0:
+        {
+            RTReactNativeController *reactCtrl = [[RTReactNativeController alloc] init];
+            [self.navigationController pushViewController:reactCtrl animated:YES];
+            break;
+        }
+        case 1:{
+            RTBugTagsViewController *bugTagsCtrl = [[RTBugTagsViewController alloc] init];
+            [self.navigationController pushViewController:bugTagsCtrl animated:YES];
+            break;
+        }
+        case 2:{
+            break;
+        }
+        default:{
+            break;
+        }
+            
+    }
 }
 
 

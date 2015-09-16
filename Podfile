@@ -18,10 +18,11 @@ target 'Rat' do
 	pod 'TalkingDataAnalytics-NO-IDFA', '1.2.70'
 	pod 'SSKeychain', '~> 1.2.3'
 	pod 'NSDictionary+Accessors', '1.0.0'
-        pod 'UITableView+FDTemplateLayoutCell', '~> 1.3'
+    pod 'UITableView+FDTemplateLayoutCell', '~> 1.3'
 	pod 'React', '~> 0.8.0-rc.2'
 	pod 'React/RCTText'
-        pod 'OCMock', '~> 3.1.2'
+    pod 'OCMock', '~> 3.1.2'
+    pod 'Bugtags', '~> 1.0.6'
 end
 
 target 'RatTests' do
