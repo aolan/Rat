@@ -8,11 +8,14 @@
 
 #import "RTAppDelegate.h"
 #import "RTRootViewController.h"
+#import <Bugtags/Bugtags.h>
 
 @implementation RTAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
 
+    [self registerThirdPart];
+    
     //创建展示窗口
     _window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     _window.backgroundColor = [UIColor whiteColor];
@@ -51,6 +54,15 @@
 
 - (void)applicationWillTerminate:(UIApplication *)application {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+}
+
+#pragma mark - 
+#pragma mark Private Methods
+
+- (void)registerThirdPart{
+    
+    [Bugtags startWithAppKey:@"03002f8b8168b148287a96e7f7671e13" invocationEvent:BTGInvocationEventBubble];
+
 }
 
 @end

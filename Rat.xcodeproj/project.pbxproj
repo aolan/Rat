@@ -29,6 +29,7 @@
 		D5B3D2AA1B5E1F2A004B3DE6 /* RTTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5B3D2A91B5E1F2A004B3DE6 /* RTTableViewController.m */; };
 		D5B3D2AF1B5E445D004B3DE6 /* UIView+RTFrameEx.m in Sources */ = {isa = PBXBuildFile; fileRef = D5B3D2AE1B5E445D004B3DE6 /* UIView+RTFrameEx.m */; };
 		D5B3D2B31B5E5C54004B3DE6 /* NSString+RTFormatEx.m in Sources */ = {isa = PBXBuildFile; fileRef = D5B3D2B21B5E5C54004B3DE6 /* NSString+RTFormatEx.m */; };
+		D5D2ACC31BA91055008CF33F /* RTBugTagsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5D2ACC21BA91055008CF33F /* RTBugTagsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -91,6 +92,8 @@
 		D5B3D2AE1B5E445D004B3DE6 /* UIView+RTFrameEx.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+RTFrameEx.m"; sourceTree = "<group>"; };
 		D5B3D2B11B5E5C54004B3DE6 /* NSString+RTFormatEx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+RTFormatEx.h"; sourceTree = "<group>"; };
 		D5B3D2B21B5E5C54004B3DE6 /* NSString+RTFormatEx.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+RTFormatEx.m"; sourceTree = "<group>"; };
+		D5D2ACC11BA91055008CF33F /* RTBugTagsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTBugTagsViewController.h; sourceTree = "<group>"; };
+		D5D2ACC21BA91055008CF33F /* RTBugTagsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTBugTagsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -296,6 +299,8 @@
 			children = (
 				D5B3D29D1B5E1943004B3DE6 /* RTHomeViewController.h */,
 				D5B3D29E1B5E1943004B3DE6 /* RTHomeViewController.m */,
+				D5D2ACC11BA91055008CF33F /* RTBugTagsViewController.h */,
+				D5D2ACC21BA91055008CF33F /* RTBugTagsViewController.m */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -507,6 +512,7 @@
 				D55B295F1B60AEF400AC6562 /* RTHomeItemCell.m in Sources */,
 				D55B29621B60B4DE00AC6562 /* RTReactNativeController.m in Sources */,
 				D546D2B61B5CD5A400F025C1 /* main.m in Sources */,
+				D5D2ACC31BA91055008CF33F /* RTBugTagsViewController.m in Sources */,
 				D5B3D2A41B5E196B004B3DE6 /* RTUserCenterViewController.m in Sources */,
 				D5B3D2AF1B5E445D004B3DE6 /* UIView+RTFrameEx.m in Sources */,
 				D5B3D2AA1B5E1F2A004B3DE6 /* RTTableViewController.m in Sources */,
