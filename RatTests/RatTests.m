@@ -7,10 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <SenTestingKit/SenTestingKit.h>
+#import <XCTest/XCTest.h>
 #import <OCMock/OCMock.h>
 
-@interface RatTests : SenTestCase
+@interface RatTests : XCTestCase
 
 @end
 
@@ -30,7 +30,7 @@
     // This is an example of a functional test case.
     int x = 1 , y = 1;
     
-    STAssertEquals(x, y, @"x and y is not equal!");
+    NSAssert((x == y), @"x and y is not equal!");
 }
 
 

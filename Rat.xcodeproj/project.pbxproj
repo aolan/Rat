@@ -18,7 +18,6 @@
 		D55B295C1B60AEE300AC6562 /* RTTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D55B295B1B60AEE300AC6562 /* RTTableViewCell.m */; };
 		D55B295F1B60AEF400AC6562 /* RTHomeItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D55B295E1B60AEF400AC6562 /* RTHomeItemCell.m */; };
 		D55B29621B60B4DE00AC6562 /* RTReactNativeController.m in Sources */ = {isa = PBXBuildFile; fileRef = D55B29611B60B4DE00AC6562 /* RTReactNativeController.m */; };
-		D57F32621B8C7C5400CC8432 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D57F32611B8C7C5400CC8432 /* SenTestingKit.framework */; };
 		D57F32661B8C8B3600CC8432 /* RTRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D57F32651B8C8B3600CC8432 /* RTRootViewController.m */; };
 		D5B3D28F1B5E1672004B3DE6 /* RTTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5B3D28E1B5E1672004B3DE6 /* RTTabBarController.m */; };
 		D5B3D2921B5E176E004B3DE6 /* RTNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5B3D2911B5E176E004B3DE6 /* RTNavigationController.m */; };
@@ -109,7 +108,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D57F32621B8C7C5400CC8432 /* SenTestingKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
