@@ -41,5 +41,21 @@
     return [self stringByAddingPercentEscapesUsingEncoding:enc];
 }
 
+- (NSDictionary *)rt_dictionaryFromXmlString{
+    
+    if ([self rt_isEmpty]) {
+        return nil;
+    }
+   
+    NSPropertyListFormat fmt;
+    NSString *errorDesc = nil;
+    NSData *data = [self dataUsingEncoding:NSUTF8StringEncoding];
+    
+    NSDictionary *dict = (NSDictionary *)[NSPropertyListSerialization propertyListFromData:data mutabilityOption:NSPropertyListMutableContainersAndLeaves format:&fmt errorDescription:&errorDesc];
+    
+    return dict;
+}
+
+
 
 @end

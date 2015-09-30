@@ -18,6 +18,7 @@
 #import <MBProgressHUD/MBProgressHUD.h>
 #import <objc/runtime.h>
 #import "UIAlertView+Block.h"
+#import "SSKeychain.h"
 
 #import "RTShortDefine.h"
 #import "RTSettingDefine.h"

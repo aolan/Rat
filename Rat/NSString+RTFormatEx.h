@@ -52,4 +52,11 @@
  */
 - (NSString *)rt_UTF8Encodeing;
 
+/**
+ *  将xml格式的字符串转换为字典
+ *
+ *  @return 返回字典
+ */
+- (NSDictionary *)rt_dictionaryFromXmlString;
+
 @end

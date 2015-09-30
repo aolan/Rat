@@ -39,7 +39,6 @@ typedef NS_ENUM(NSInteger, RTAppLaunchModel){
  */
 + (RTSystemUtil *)shareInstance;
 
-
 /**
  *  返回app启动方式
  *
@@ -48,5 +47,49 @@ typedef NS_ENUM(NSInteger, RTAppLaunchModel){
  *  @return app启动方式
  */
 + (RTAppLaunchModel)appLaunchModel:(NSDictionary *)launchOptions;
+
+/**
+ *  获取设备唯一标识
+ *
+ *  @return 返回设备唯一标识
+ */
++ (NSString *)getUUIDString;
+
+/**
+ *  将字典转换为xml格式字符串
+ *
+ *  @param dictionary 字典
+ *
+ *  @return 返回xml格式字符串
+ */
++ (NSString *)xmlStringFromDictionary:(NSDictionary *)dictionary;
+
+/**
+ *  获取设备名称
+ *
+ *  @return 返回设备名称
+ */
++ (NSString *)getDeviceName;
+
+/**
+ * 获取设备操作系统版本号
+ *
+ * @return 设备系统版本号
+ */
++ (NSString*)getDeviceOSVersion;
+
+/**
+ * 获取网络服务提供商
+ *
+ * @return 网络服务提供商ISP
+ */
++ (NSString*)getInternetSerivceProvider;
+
+/**
+ *  获取屏幕分辨率
+ *
+ *  @return 返回屏幕分辨率
+ */
++ (NSString *)getScreenResolution;
 
 @end
