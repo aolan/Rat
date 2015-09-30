@@ -18,6 +18,9 @@
 		D554FA6C1BBA824D0087BC06 /* RTHideTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D554FA6B1BBA824D0087BC06 /* RTHideTabBarViewController.m */; settings = {ASSET_TAGS = (); }; };
 		D554FA721BBA999B0087BC06 /* UIViewController+RTNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = D554FA711BBA999B0087BC06 /* UIViewController+RTNavigationBar.m */; settings = {ASSET_TAGS = (); }; };
 		D554FA751BBB6BCC0087BC06 /* NSDictionary+RTTextAttributesExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = D554FA741BBB6BCC0087BC06 /* NSDictionary+RTTextAttributesExtension.m */; settings = {ASSET_TAGS = (); }; };
+		D554FA871BBB95660087BC06 /* NSDate+RTExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = D554FA861BBB95660087BC06 /* NSDate+RTExtension.m */; settings = {ASSET_TAGS = (); }; };
+		D554FA8A1BBBAE100087BC06 /* UIViewController+RTActivityView.m in Sources */ = {isa = PBXBuildFile; fileRef = D554FA891BBBAE100087BC06 /* UIViewController+RTActivityView.m */; settings = {ASSET_TAGS = (); }; };
+		D554FA8D1BBBC9E30087BC06 /* CABasicAnimation+RTExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = D554FA8C1BBBC9E30087BC06 /* CABasicAnimation+RTExtension.m */; settings = {ASSET_TAGS = (); }; };
 		D55B29591B609C8600AC6562 /* RTReactView.m in Sources */ = {isa = PBXBuildFile; fileRef = D55B29581B609C8600AC6562 /* RTReactView.m */; };
 		D55B295C1B60AEE300AC6562 /* RTTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D55B295B1B60AEE300AC6562 /* RTTableViewCell.m */; };
 		D55B295F1B60AEF400AC6562 /* RTHomeItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D55B295E1B60AEF400AC6562 /* RTHomeItemCell.m */; };
@@ -76,6 +79,12 @@
 		D554FA741BBB6BCC0087BC06 /* NSDictionary+RTTextAttributesExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+RTTextAttributesExtension.m"; path = "Rat/NSDictionary+RTTextAttributesExtension.m"; sourceTree = "<group>"; };
 		D554FA771BBB71D00087BC06 /* RatKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RatKit.h; sourceTree = "<group>"; };
 		D554FA811BBB82A20087BC06 /* RTSettingDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTSettingDefine.h; sourceTree = "<group>"; };
+		D554FA851BBB95660087BC06 /* NSDate+RTExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+RTExtension.h"; sourceTree = "<group>"; };
+		D554FA861BBB95660087BC06 /* NSDate+RTExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+RTExtension.m"; sourceTree = "<group>"; };
+		D554FA881BBBAE100087BC06 /* UIViewController+RTActivityView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+RTActivityView.h"; sourceTree = "<group>"; };
+		D554FA891BBBAE100087BC06 /* UIViewController+RTActivityView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+RTActivityView.m"; sourceTree = "<group>"; };
+		D554FA8B1BBBC9E30087BC06 /* CABasicAnimation+RTExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CABasicAnimation+RTExtension.h"; sourceTree = "<group>"; };
+		D554FA8C1BBBC9E30087BC06 /* CABasicAnimation+RTExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CABasicAnimation+RTExtension.m"; sourceTree = "<group>"; };
 		D55B29571B609C8600AC6562 /* RTReactView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTReactView.h; sourceTree = "<group>"; };
 		D55B29581B609C8600AC6562 /* RTReactView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTReactView.m; sourceTree = "<group>"; };
 		D55B295A1B60AEE300AC6562 /* RTTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RTTableViewCell.h; path = Rat/RTTableViewCell.h; sourceTree = "<group>"; };
@@ -315,6 +324,10 @@
 				D52432E11B8D7124001AC850 /* UIImage+RTExtension.m */,
 				D554FA731BBB6BCC0087BC06 /* NSDictionary+RTTextAttributesExtension.h */,
 				D554FA741BBB6BCC0087BC06 /* NSDictionary+RTTextAttributesExtension.m */,
+				D554FA851BBB95660087BC06 /* NSDate+RTExtension.h */,
+				D554FA861BBB95660087BC06 /* NSDate+RTExtension.m */,
+				D554FA8B1BBBC9E30087BC06 /* CABasicAnimation+RTExtension.h */,
+				D554FA8C1BBBC9E30087BC06 /* CABasicAnimation+RTExtension.m */,
 			);
 			name = Category;
 			sourceTree = "<group>";
@@ -344,6 +357,8 @@
 				D5B3D2AE1B5E445D004B3DE6 /* UIView+RTFrameEx.m */,
 				D554FA701BBA999B0087BC06 /* UIViewController+RTNavigationBar.h */,
 				D554FA711BBA999B0087BC06 /* UIViewController+RTNavigationBar.m */,
+				D554FA881BBBAE100087BC06 /* UIViewController+RTActivityView.h */,
+				D554FA891BBBAE100087BC06 /* UIViewController+RTActivityView.m */,
 			);
 			name = Category;
 			sourceTree = "<group>";
@@ -567,13 +582,16 @@
 				D554FA6C1BBA824D0087BC06 /* RTHideTabBarViewController.m in Sources */,
 				D55B29621B60B4DE00AC6562 /* RTReactNativeController.m in Sources */,
 				D546D2B61B5CD5A400F025C1 /* main.m in Sources */,
+				D554FA8D1BBBC9E30087BC06 /* CABasicAnimation+RTExtension.m in Sources */,
 				D5D2ACC31BA91055008CF33F /* RTBugTagsViewController.m in Sources */,
 				D5B3D2A41B5E196B004B3DE6 /* RTUserCenterViewController.m in Sources */,
 				D5B3D2AF1B5E445D004B3DE6 /* UIView+RTFrameEx.m in Sources */,
 				D5B3D2AA1B5E1F2A004B3DE6 /* RTTableViewController.m in Sources */,
+				D554FA8A1BBBAE100087BC06 /* UIViewController+RTActivityView.m in Sources */,
 				D55B295C1B60AEE300AC6562 /* RTTableViewCell.m in Sources */,
 				D554FA691BBA7A250087BC06 /* RTHideNavigationBarViewController.m in Sources */,
 				D554FA751BBB6BCC0087BC06 /* NSDictionary+RTTextAttributesExtension.m in Sources */,
+				D554FA871BBB95660087BC06 /* NSDate+RTExtension.m in Sources */,
 				D546D2E71B5CF60600F025C1 /* RTSystemUtil.m in Sources */,
 				D5B3D2A71B5E1F1C004B3DE6 /* RTCollectionViewController.m in Sources */,
 				D5B3D2981B5E1859004B3DE6 /* RTBaseViewController.m in Sources */,

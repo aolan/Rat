@@ -21,4 +21,5 @@
  */
 @property(nonatomic, assign) BOOL isSupportedGoBackByGesture;
 
+
 @end

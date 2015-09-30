@@ -25,6 +25,16 @@
     [super viewDidLoad];
     
     self.containView.backgroundColor = [UIColor redColor];
+    
+//    [self showActivityViewWithMessage:@"加载中"];
+    
+//    [self showToastViewWithMessage:@"请输入用户名"];
+    
+    
+    [self showAlertViewWithTitle:@"温馨提示" message:@"你确实要提交个人信息吗" cancelButton:@"取消" otherButtons:@[@"确认", @"再考虑"] afterComplete:^(NSInteger buttonIndex) {
+        NSLog(@"=======%zd", buttonIndex);
+ 
+    }];
 }
 
 @end
