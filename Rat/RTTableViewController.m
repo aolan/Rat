@@ -7,7 +7,6 @@
 //
 
 #import "RTTableViewController.h"
-#import "MJRefresh.h"
 
 @interface RTTableViewController ()
 
@@ -29,20 +28,18 @@
 
 - (void)registerTableStyle:(RTTableViewStyle)style{
     
-    if (style == RTTableViewStyleNone) {
-        [self.tableView removeHeader];
-        [self.tableView removeFooter];
-    }
+    [self.tableView removeHeader];
+    [self.tableView removeFooter];
     
-    if (style == RTTableViewStyleRefresh) {
-        [self.tableView addLegendHeaderWithRefreshingTarget:self refreshingAction:@selector(refreshData)];
-    }
-    
-    if (style == RTTableViewStyleMore) {
+    if (style & RTTableViewStyleMore) {
         [self.tableView addLegendFooterWithRefreshingTarget:self refreshingAction:@selector(loadMoreData)];
     }
     
-    if (style == RTTableViewStyleBoth) {
+    if (style & RTTableViewStyleRefresh) {
+        [self.tableView addLegendHeaderWithRefreshingTarget:self refreshingAction:@selector(refreshData)];
+    }
+    
+    if (style & RTTableViewStyleBoth) {
         [self.tableView addLegendHeaderWithRefreshingTarget:self refreshingAction:@selector(refreshData)];
         [self.tableView addLegendFooterWithRefreshingTarget:self refreshingAction:@selector(loadMoreData)];
     }
@@ -81,6 +78,11 @@
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
     
     return nil;
+}
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+    
+    [tableView deselectRowAtIndexPath:indexPath animated:YES];
 }
 
 #pragma mark -

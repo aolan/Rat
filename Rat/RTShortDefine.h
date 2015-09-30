@@ -50,16 +50,19 @@
  *  设备系统版本号
  */
 #define RT_DEVICE_VERSION                       [[UIDevice currentDevice].systemVersion doubleValue]
+#define RT_IOS9                                 ((int)RT_DEVICE_VERSION == 9)
 #define RT_IOS8                                 ((int)RT_DEVICE_VERSION == 8)
 #define RT_IOS7                                 ((int)RT_DEVICE_VERSION == 7)
 #define RT_IOS6                                 ((int)RT_DEVICE_VERSION == 6)
 #define RT_IOS5                                 ((int)RT_DEVICE_VERSION == 5)
 
+#define RT_IOS9_GREATER                         (RT_DEVICE_VERSION >= 9.f)
 #define RT_IOS8_GREATER                         (RT_DEVICE_VERSION >= 8.f)
 #define RT_IOS7_GREATER                         (RT_DEVICE_VERSION >= 7.f)
 #define RT_IOS6_GREATER                         (RT_DEVICE_VERSION >= 6.f)
 #define RT_IOS5_GREATER                         (RT_DEVICE_VERSION >= 5.f)
 
+#define RT_IOS9_SMALLER                         (RT_DEVICE_VERSION < 9.f)
 #define RT_IOS8_SMALLER                         (RT_DEVICE_VERSION < 8.f)
 #define RT_IOS7_SMALLER                         (RT_DEVICE_VERSION < 7.f)
 #define RT_IOS6_SMALLER                         (RT_DEVICE_VERSION < 6.f)

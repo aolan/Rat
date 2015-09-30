@@ -20,7 +20,7 @@
     
     [super viewDidLoad];
     
-    self.title = @"Bug收集BugTags";
+    self.title = @"摇动唤起BugTags";
     
     _bugList = @[@"这离有错别字，可以直接用bugtags截图上传", @"数组越界崩溃"];
     
@@ -44,6 +44,7 @@
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"UITableViewCell"];
     cell.textLabel.text = [_bugList objectAtIndex:indexPath.row];
+    cell.textLabel.font = RT_FONT(12);
     return cell;
 }
 

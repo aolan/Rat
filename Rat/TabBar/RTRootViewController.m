@@ -7,7 +7,6 @@
 //
 
 #import "RTRootViewController.h"
-#import "UIImage+RTExtension.h"
 
 @implementation RTRootViewController
 

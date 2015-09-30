@@ -14,6 +14,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
 
+    //注册第三方模块
     [self registerThirdPart];
     
     //创建展示窗口
@@ -59,10 +60,15 @@
 #pragma mark - 
 #pragma mark Private Methods
 
+
 - (void)registerThirdPart{
     
-    [Bugtags startWithAppKey:@"03002f8b8168b148287a96e7f7671e13" invocationEvent:BTGInvocationEventBubble];
-
+#ifdef DEBUG
+    //注册辅助测试工具bugtags
+    [Bugtags startWithAppKey:@"03002f8b8168b148287a96e7f7671e13" invocationEvent:BTGInvocationEventShake];
+#endif
+    
 }
 
 @end
+

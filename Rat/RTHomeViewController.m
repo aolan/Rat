@@ -12,6 +12,8 @@
 #import "RTHomeItemCell.h"
 #import "RTReactNativeController.h"
 #import "RTBugTagsViewController.h"
+#import "RTHideTabBarViewController.h"
+#import "RTHideNavigationBarViewController.h"
 
 static NSString *const  kRTHomeViewControllerCellIdentifier = @"kRTHomeViewControllerCellIdentifier";
 
@@ -29,7 +31,7 @@ static NSString *const  kRTHomeViewControllerCellIdentifier = @"kRTHomeViewContr
     if (self) {
         self.title = @"首页";
         
-        _itemList = @[@"Reative", @"BugTags"];
+        _itemList = @[@"Hide NavBar", @"Hide Tabbar", @"React-native", @"BugTags"];
         
     }
     return self;
@@ -63,20 +65,29 @@ static NSString *const  kRTHomeViewControllerCellIdentifier = @"kRTHomeViewContr
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     
+    [super tableView:tableView didSelectRowAtIndexPath:indexPath];
+    
     switch (indexPath.row) {
             
-        case 0:
-        {
-            RTReactNativeController *reactCtrl = [[RTReactNativeController alloc] init];
-            [self.navigationController pushViewController:reactCtrl animated:YES];
+        case 0:{
+            RTHideNavigationBarViewController *ctrl = [[RTHideNavigationBarViewController alloc] init];
+            [self.navigationController pushViewController:ctrl animated:YES];
             break;
         }
-        case 1:{
-            RTBugTagsViewController *bugTagsCtrl = [[RTBugTagsViewController alloc] init];
+        case 1:
+        {
+            RTHideTabBarViewController *bugTagsCtrl = [[RTHideTabBarViewController alloc] init];
             [self.navigationController pushViewController:bugTagsCtrl animated:YES];
             break;
         }
         case 2:{
+            RTReactNativeController *reactCtrl = [[RTReactNativeController alloc] init];
+            [self.navigationController pushViewController:reactCtrl animated:YES];
+            break;
+        }
+        case 3:{
+            RTBugTagsViewController *bugTagsCtrl = [[RTBugTagsViewController alloc] init];
+            [self.navigationController pushViewController:bugTagsCtrl animated:YES];
             break;
         }
         default:{

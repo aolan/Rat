@@ -11,16 +11,8 @@
 
 #ifdef __OBJC__
 
-#import <UIKit/UIKit.h>
-#import <Foundation/Foundation.h>
+#import "RatKit.h"
 #import "RTAppDelegate.h"
-#import "Masonry.h"
-#import <FMDB/FMDB.h>
-#import "Reachability.h"
-
-#import "RTShortDefine.h"
 #import "RTConfigDefine.h"
-#import "UIView+RTFrameEx.h"
-
 
 #endif
