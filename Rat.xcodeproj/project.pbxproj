@@ -52,8 +52,8 @@
 		42B05B4CC8102C03ACDDDA76 /* Pods-Rat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rat.release.xcconfig"; path = "Pods/Target Support Files/Pods-Rat/Pods-Rat.release.xcconfig"; sourceTree = "<group>"; };
 		52EAEBFD0C27635B58AF8474 /* libPods-Rat.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Rat.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6138EA8D6D6B562E60D07746 /* Pods-Rat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Rat/Pods-Rat.debug.xcconfig"; sourceTree = "<group>"; };
-		D52432E01B8D7124001AC850 /* UIImage+RTExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage+RTExtension.h"; path = "Rat/UIImage+RTExtension.h"; sourceTree = "<group>"; };
-		D52432E11B8D7124001AC850 /* UIImage+RTExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+RTExtension.m"; path = "Rat/UIImage+RTExtension.m"; sourceTree = "<group>"; };
+		D52432E01B8D7124001AC850 /* UIImage+RTExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+RTExtension.h"; sourceTree = "<group>"; };
+		D52432E11B8D7124001AC850 /* UIImage+RTExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+RTExtension.m"; sourceTree = "<group>"; };
 		D546D2B01B5CD5A400F025C1 /* Rat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D546D2B41B5CD5A400F025C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D546D2B51B5CD5A400F025C1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -64,19 +64,19 @@
 		D546D2D91B5CDD6D00F025C1 /* RTAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTAppDelegate.h; sourceTree = "<group>"; };
 		D546D2DA1B5CDD6D00F025C1 /* RTAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTAppDelegate.m; sourceTree = "<group>"; };
 		D546D2E41B5CF24500F025C1 /* RTEnumDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTEnumDefine.h; sourceTree = "<group>"; };
-		D546D2E51B5CF60600F025C1 /* RTSystemUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RTSystemUtil.h; path = Rat/RTSystemUtil.h; sourceTree = "<group>"; };
-		D546D2E61B5CF60600F025C1 /* RTSystemUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RTSystemUtil.m; path = Rat/RTSystemUtil.m; sourceTree = "<group>"; };
+		D546D2E51B5CF60600F025C1 /* RTSystemUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTSystemUtil.h; sourceTree = "<group>"; };
+		D546D2E61B5CF60600F025C1 /* RTSystemUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTSystemUtil.m; sourceTree = "<group>"; };
 		D546D2E91B5CFD8300F025C1 /* Rat-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Rat-Prefix.pch"; sourceTree = "<group>"; };
-		D546D2EA1B5D051500F025C1 /* RTShortDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RTShortDefine.h; path = Rat/RTShortDefine.h; sourceTree = "<group>"; };
+		D546D2EA1B5D051500F025C1 /* RTShortDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTShortDefine.h; sourceTree = "<group>"; };
 		D546D2EB1B5D0BE900F025C1 /* RTConfigDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RTConfigDefine.h; sourceTree = "<group>"; };
 		D554FA671BBA7A250087BC06 /* RTHideNavigationBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTHideNavigationBarViewController.h; sourceTree = "<group>"; };
 		D554FA681BBA7A250087BC06 /* RTHideNavigationBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTHideNavigationBarViewController.m; sourceTree = "<group>"; };
 		D554FA6A1BBA824D0087BC06 /* RTHideTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTHideTabBarViewController.h; sourceTree = "<group>"; };
 		D554FA6B1BBA824D0087BC06 /* RTHideTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTHideTabBarViewController.m; sourceTree = "<group>"; };
-		D554FA701BBA999B0087BC06 /* UIViewController+RTNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIViewController+RTNavigationBar.h"; path = "Rat/UIViewController+RTNavigationBar.h"; sourceTree = "<group>"; };
-		D554FA711BBA999B0087BC06 /* UIViewController+RTNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+RTNavigationBar.m"; path = "Rat/UIViewController+RTNavigationBar.m"; sourceTree = "<group>"; };
-		D554FA731BBB6BCC0087BC06 /* NSDictionary+RTTextAttributesExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+RTTextAttributesExtension.h"; path = "Rat/NSDictionary+RTTextAttributesExtension.h"; sourceTree = "<group>"; };
-		D554FA741BBB6BCC0087BC06 /* NSDictionary+RTTextAttributesExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+RTTextAttributesExtension.m"; path = "Rat/NSDictionary+RTTextAttributesExtension.m"; sourceTree = "<group>"; };
+		D554FA701BBA999B0087BC06 /* UIViewController+RTNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+RTNavigationBar.h"; sourceTree = "<group>"; };
+		D554FA711BBA999B0087BC06 /* UIViewController+RTNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+RTNavigationBar.m"; sourceTree = "<group>"; };
+		D554FA731BBB6BCC0087BC06 /* NSDictionary+RTTextAttributesExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+RTTextAttributesExtension.h"; sourceTree = "<group>"; };
+		D554FA741BBB6BCC0087BC06 /* NSDictionary+RTTextAttributesExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+RTTextAttributesExtension.m"; sourceTree = "<group>"; };
 		D554FA771BBB71D00087BC06 /* RatKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RatKit.h; sourceTree = "<group>"; };
 		D554FA811BBB82A20087BC06 /* RTSettingDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTSettingDefine.h; sourceTree = "<group>"; };
 		D554FA851BBB95660087BC06 /* NSDate+RTExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+RTExtension.h"; sourceTree = "<group>"; };
@@ -87,33 +87,33 @@
 		D554FA8C1BBBC9E30087BC06 /* CABasicAnimation+RTExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CABasicAnimation+RTExtension.m"; sourceTree = "<group>"; };
 		D55B29571B609C8600AC6562 /* RTReactView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTReactView.h; sourceTree = "<group>"; };
 		D55B29581B609C8600AC6562 /* RTReactView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTReactView.m; sourceTree = "<group>"; };
-		D55B295A1B60AEE300AC6562 /* RTTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RTTableViewCell.h; path = Rat/RTTableViewCell.h; sourceTree = "<group>"; };
-		D55B295B1B60AEE300AC6562 /* RTTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RTTableViewCell.m; path = Rat/RTTableViewCell.m; sourceTree = "<group>"; };
+		D55B295A1B60AEE300AC6562 /* RTTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTTableViewCell.h; sourceTree = "<group>"; };
+		D55B295B1B60AEE300AC6562 /* RTTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTTableViewCell.m; sourceTree = "<group>"; };
 		D55B295D1B60AEF400AC6562 /* RTHomeItemCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTHomeItemCell.h; sourceTree = "<group>"; };
 		D55B295E1B60AEF400AC6562 /* RTHomeItemCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTHomeItemCell.m; sourceTree = "<group>"; };
-		D55B29601B60B4DE00AC6562 /* RTReactNativeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RTReactNativeController.h; path = Rat/RTReactNativeController.h; sourceTree = "<group>"; };
-		D55B29611B60B4DE00AC6562 /* RTReactNativeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RTReactNativeController.m; path = Rat/RTReactNativeController.m; sourceTree = "<group>"; };
+		D55B29601B60B4DE00AC6562 /* RTReactNativeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTReactNativeController.h; sourceTree = "<group>"; };
+		D55B29611B60B4DE00AC6562 /* RTReactNativeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTReactNativeController.m; sourceTree = "<group>"; };
 		D57F32611B8C7C5400CC8432 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		D57F32641B8C8B3600CC8432 /* RTRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RTRootViewController.h; path = Rat/TabBar/RTRootViewController.h; sourceTree = "<group>"; };
-		D57F32651B8C8B3600CC8432 /* RTRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RTRootViewController.m; path = Rat/TabBar/RTRootViewController.m; sourceTree = "<group>"; };
-		D5B3D28D1B5E1672004B3DE6 /* RTTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RTTabBarController.h; path = Rat/RTTabBarController.h; sourceTree = "<group>"; };
-		D5B3D28E1B5E1672004B3DE6 /* RTTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RTTabBarController.m; path = Rat/RTTabBarController.m; sourceTree = "<group>"; };
-		D5B3D2901B5E176E004B3DE6 /* RTNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RTNavigationController.h; path = Rat/RTNavigationController.h; sourceTree = "<group>"; };
-		D5B3D2911B5E176E004B3DE6 /* RTNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RTNavigationController.m; path = Rat/RTNavigationController.m; sourceTree = "<group>"; };
-		D5B3D2961B5E1859004B3DE6 /* RTBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RTBaseViewController.h; path = Rat/RTBaseViewController.h; sourceTree = "<group>"; };
-		D5B3D2971B5E1859004B3DE6 /* RTBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RTBaseViewController.m; path = Rat/RTBaseViewController.m; sourceTree = "<group>"; };
+		D57F32641B8C8B3600CC8432 /* RTRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTRootViewController.h; sourceTree = "<group>"; };
+		D57F32651B8C8B3600CC8432 /* RTRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTRootViewController.m; sourceTree = "<group>"; };
+		D5B3D28D1B5E1672004B3DE6 /* RTTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTTabBarController.h; sourceTree = "<group>"; };
+		D5B3D28E1B5E1672004B3DE6 /* RTTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTTabBarController.m; sourceTree = "<group>"; };
+		D5B3D2901B5E176E004B3DE6 /* RTNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTNavigationController.h; sourceTree = "<group>"; };
+		D5B3D2911B5E176E004B3DE6 /* RTNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTNavigationController.m; sourceTree = "<group>"; };
+		D5B3D2961B5E1859004B3DE6 /* RTBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTBaseViewController.h; sourceTree = "<group>"; };
+		D5B3D2971B5E1859004B3DE6 /* RTBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTBaseViewController.m; sourceTree = "<group>"; };
 		D5B3D29D1B5E1943004B3DE6 /* RTHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTHomeViewController.h; sourceTree = "<group>"; };
 		D5B3D29E1B5E1943004B3DE6 /* RTHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTHomeViewController.m; sourceTree = "<group>"; };
 		D5B3D2A21B5E196B004B3DE6 /* RTUserCenterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTUserCenterViewController.h; sourceTree = "<group>"; };
 		D5B3D2A31B5E196B004B3DE6 /* RTUserCenterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTUserCenterViewController.m; sourceTree = "<group>"; };
-		D5B3D2A51B5E1F1C004B3DE6 /* RTCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RTCollectionViewController.h; path = Rat/RTCollectionViewController.h; sourceTree = "<group>"; };
-		D5B3D2A61B5E1F1C004B3DE6 /* RTCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RTCollectionViewController.m; path = Rat/RTCollectionViewController.m; sourceTree = "<group>"; };
-		D5B3D2A81B5E1F2A004B3DE6 /* RTTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RTTableViewController.h; path = Rat/RTTableViewController.h; sourceTree = "<group>"; };
-		D5B3D2A91B5E1F2A004B3DE6 /* RTTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RTTableViewController.m; path = Rat/RTTableViewController.m; sourceTree = "<group>"; };
-		D5B3D2AD1B5E445D004B3DE6 /* UIView+RTFrameEx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+RTFrameEx.h"; path = "Rat/UIView+RTFrameEx.h"; sourceTree = "<group>"; };
-		D5B3D2AE1B5E445D004B3DE6 /* UIView+RTFrameEx.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+RTFrameEx.m"; path = "Rat/UIView+RTFrameEx.m"; sourceTree = "<group>"; };
-		D5B3D2B11B5E5C54004B3DE6 /* NSString+RTFormatEx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+RTFormatEx.h"; path = "Rat/NSString+RTFormatEx.h"; sourceTree = "<group>"; };
-		D5B3D2B21B5E5C54004B3DE6 /* NSString+RTFormatEx.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+RTFormatEx.m"; path = "Rat/NSString+RTFormatEx.m"; sourceTree = "<group>"; };
+		D5B3D2A51B5E1F1C004B3DE6 /* RTCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTCollectionViewController.h; sourceTree = "<group>"; };
+		D5B3D2A61B5E1F1C004B3DE6 /* RTCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTCollectionViewController.m; sourceTree = "<group>"; };
+		D5B3D2A81B5E1F2A004B3DE6 /* RTTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTTableViewController.h; sourceTree = "<group>"; };
+		D5B3D2A91B5E1F2A004B3DE6 /* RTTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTTableViewController.m; sourceTree = "<group>"; };
+		D5B3D2AD1B5E445D004B3DE6 /* UIView+RTFrameEx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+RTFrameEx.h"; sourceTree = "<group>"; };
+		D5B3D2AE1B5E445D004B3DE6 /* UIView+RTFrameEx.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+RTFrameEx.m"; sourceTree = "<group>"; };
+		D5B3D2B11B5E5C54004B3DE6 /* NSString+RTFormatEx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+RTFormatEx.h"; sourceTree = "<group>"; };
+		D5B3D2B21B5E5C54004B3DE6 /* NSString+RTFormatEx.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+RTFormatEx.m"; sourceTree = "<group>"; };
 		D5D2ACC11BA91055008CF33F /* RTBugTagsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTBugTagsViewController.h; sourceTree = "<group>"; };
 		D5D2ACC21BA91055008CF33F /* RTBugTagsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTBugTagsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -158,12 +158,12 @@
 		D546D2A71B5CD5A400F025C1 = {
 			isa = PBXGroup;
 			children = (
+				14973953C4625329BBF510C4 /* Frameworks */,
+				1AC42AEA9BADCDF7E95BE787 /* Pods */,
+				D546D2B11B5CD5A400F025C1 /* Products */,
 				D546D2B21B5CD5A400F025C1 /* Rat */,
 				D554FA761BBB718C0087BC06 /* RatKit */,
 				D546D2CC1B5CD5A400F025C1 /* RatTests */,
-				D546D2B11B5CD5A400F025C1 /* Products */,
-				1AC42AEA9BADCDF7E95BE787 /* Pods */,
-				14973953C4625329BBF510C4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -180,11 +180,11 @@
 			isa = PBXGroup;
 			children = (
 				D546D2E31B5CE58800F025C1 /* AppDelegate */,
-				D546D2DF1B5CE55A00F025C1 /* UI */,
 				D546D2DE1B5CE54900F025C1 /* Configs */,
 				D546D2DD1B5CE53C00F025C1 /* Defines */,
-				D546D2C01B5CD5A400F025C1 /* Images.xcassets */,
 				D546D2B31B5CD5A400F025C1 /* Supporting Files */,
+				D546D2DF1B5CE55A00F025C1 /* UI */,
+				D546D2C01B5CD5A400F025C1 /* Images.xcassets */,
 			);
 			path = Rat;
 			sourceTree = "<group>";
@@ -193,17 +193,17 @@
 			isa = PBXGroup;
 			children = (
 				D546D2B41B5CD5A400F025C1 /* Info.plist */,
-				D546D2B51B5CD5A400F025C1 /* main.m */,
 				D546D2E91B5CFD8300F025C1 /* Rat-Prefix.pch */,
+				D546D2B51B5CD5A400F025C1 /* main.m */,
 			);
-			name = "Supporting Files";
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		D546D2CC1B5CD5A400F025C1 /* RatTests */ = {
 			isa = PBXGroup;
 			children = (
-				D546D2CF1B5CD5A400F025C1 /* RatTests.m */,
 				D546D2CD1B5CD5A400F025C1 /* Supporting Files */,
+				D546D2CF1B5CD5A400F025C1 /* RatTests.m */,
 			);
 			path = RatTests;
 			sourceTree = "<group>";
@@ -213,7 +213,7 @@
 			children = (
 				D546D2CE1B5CD5A400F025C1 /* Info.plist */,
 			);
-			name = "Supporting Files";
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		D546D2DD1B5CE53C00F025C1 /* Defines */ = {
@@ -221,7 +221,7 @@
 			children = (
 				D546D2E41B5CF24500F025C1 /* RTEnumDefine.h */,
 			);
-			name = Defines;
+			path = Defines;
 			sourceTree = "<group>";
 		};
 		D546D2DE1B5CE54900F025C1 /* Configs */ = {
@@ -229,17 +229,17 @@
 			children = (
 				D546D2EB1B5D0BE900F025C1 /* RTConfigDefine.h */,
 			);
-			name = Configs;
+			path = Configs;
 			sourceTree = "<group>";
 		};
 		D546D2DF1B5CE55A00F025C1 /* UI */ = {
 			isa = PBXGroup;
 			children = (
-				D5B3D29A1B5E191E004B3DE6 /* User */,
-				D554FA611BBA79240087BC06 /* Other */,
 				D5B3D2991B5E1917004B3DE6 /* Home */,
+				D554FA611BBA79240087BC06 /* Other */,
+				D5B3D29A1B5E191E004B3DE6 /* User */,
 			);
-			name = UI;
+			path = UI;
 			sourceTree = "<group>";
 		};
 		D546D2E31B5CE58800F025C1 /* AppDelegate */ = {
@@ -248,14 +248,14 @@
 				D546D2D91B5CDD6D00F025C1 /* RTAppDelegate.h */,
 				D546D2DA1B5CDD6D00F025C1 /* RTAppDelegate.m */,
 			);
-			name = AppDelegate;
+			path = AppDelegate;
 			sourceTree = "<group>";
 		};
 		D554FA611BBA79240087BC06 /* Other */ = {
 			isa = PBXGroup;
 			children = (
-				D554FA631BBA79700087BC06 /* Views */,
 				D554FA621BBA79650087BC06 /* Controllers */,
+				D554FA631BBA79700087BC06 /* Views */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -263,73 +263,73 @@
 		D554FA621BBA79650087BC06 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				D554FA6A1BBA824D0087BC06 /* RTHideTabBarViewController.h */,
-				D554FA6B1BBA824D0087BC06 /* RTHideTabBarViewController.m */,
 				D554FA671BBA7A250087BC06 /* RTHideNavigationBarViewController.h */,
 				D554FA681BBA7A250087BC06 /* RTHideNavigationBarViewController.m */,
+				D554FA6A1BBA824D0087BC06 /* RTHideTabBarViewController.h */,
+				D554FA6B1BBA824D0087BC06 /* RTHideTabBarViewController.m */,
 			);
-			name = Controllers;
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 		D554FA631BBA79700087BC06 /* Views */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			name = Views;
+			path = Views;
 			sourceTree = "<group>";
 		};
 		D554FA761BBB718C0087BC06 /* RatKit */ = {
 			isa = PBXGroup;
 			children = (
-				D554FA771BBB71D00087BC06 /* RatKit.h */,
-				D554FA7E1BBB729E0087BC06 /* UIKit */,
-				D554FA7B1BBB721F0087BC06 /* Foundation */,
-				D554FA7A1BBB72110087BC06 /* Defines */,
 				D554FA781BBB71FC0087BC06 /* Data */,
+				D554FA7A1BBB72110087BC06 /* Defines */,
+				D554FA7B1BBB721F0087BC06 /* Foundation */,
+				D554FA7E1BBB729E0087BC06 /* UIKit */,
+				D554FA771BBB71D00087BC06 /* RatKit.h */,
 			);
-			name = RatKit;
+			path = RatKit;
 			sourceTree = "<group>";
 		};
 		D554FA781BBB71FC0087BC06 /* Data */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			name = Data;
+			path = Data;
 			sourceTree = "<group>";
 		};
 		D554FA7A1BBB72110087BC06 /* Defines */ = {
 			isa = PBXGroup;
 			children = (
-				D546D2EA1B5D051500F025C1 /* RTShortDefine.h */,
 				D554FA811BBB82A20087BC06 /* RTSettingDefine.h */,
+				D546D2EA1B5D051500F025C1 /* RTShortDefine.h */,
 			);
-			name = Defines;
+			path = Defines;
 			sourceTree = "<group>";
 		};
 		D554FA7B1BBB721F0087BC06 /* Foundation */ = {
 			isa = PBXGroup;
 			children = (
-				D554FA7D1BBB72560087BC06 /* Class */,
 				D554FA7C1BBB724D0087BC06 /* Category */,
+				D554FA7D1BBB72560087BC06 /* Class */,
 			);
-			name = Foundation;
+			path = Foundation;
 			sourceTree = "<group>";
 		};
 		D554FA7C1BBB724D0087BC06 /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				D554FA8B1BBBC9E30087BC06 /* CABasicAnimation+RTExtension.h */,
+				D554FA8C1BBBC9E30087BC06 /* CABasicAnimation+RTExtension.m */,
+				D554FA851BBB95660087BC06 /* NSDate+RTExtension.h */,
+				D554FA861BBB95660087BC06 /* NSDate+RTExtension.m */,
+				D554FA731BBB6BCC0087BC06 /* NSDictionary+RTTextAttributesExtension.h */,
+				D554FA741BBB6BCC0087BC06 /* NSDictionary+RTTextAttributesExtension.m */,
 				D5B3D2B11B5E5C54004B3DE6 /* NSString+RTFormatEx.h */,
 				D5B3D2B21B5E5C54004B3DE6 /* NSString+RTFormatEx.m */,
 				D52432E01B8D7124001AC850 /* UIImage+RTExtension.h */,
 				D52432E11B8D7124001AC850 /* UIImage+RTExtension.m */,
-				D554FA731BBB6BCC0087BC06 /* NSDictionary+RTTextAttributesExtension.h */,
-				D554FA741BBB6BCC0087BC06 /* NSDictionary+RTTextAttributesExtension.m */,
-				D554FA851BBB95660087BC06 /* NSDate+RTExtension.h */,
-				D554FA861BBB95660087BC06 /* NSDate+RTExtension.m */,
-				D554FA8B1BBBC9E30087BC06 /* CABasicAnimation+RTExtension.h */,
-				D554FA8C1BBBC9E30087BC06 /* CABasicAnimation+RTExtension.m */,
 			);
-			name = Category;
+			path = Category;
 			sourceTree = "<group>";
 		};
 		D554FA7D1BBB72560087BC06 /* Class */ = {
@@ -338,16 +338,16 @@
 				D546D2E51B5CF60600F025C1 /* RTSystemUtil.h */,
 				D546D2E61B5CF60600F025C1 /* RTSystemUtil.m */,
 			);
-			name = Class;
+			path = Class;
 			sourceTree = "<group>";
 		};
 		D554FA7E1BBB729E0087BC06 /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
-				D554FA801BBB72D30087BC06 /* Class */,
 				D554FA7F1BBB72A40087BC06 /* Category */,
+				D554FA801BBB72D30087BC06 /* Class */,
 			);
-			name = UIKit;
+			path = UIKit;
 			sourceTree = "<group>";
 		};
 		D554FA7F1BBB72A40087BC06 /* Category */ = {
@@ -355,75 +355,75 @@
 			children = (
 				D5B3D2AD1B5E445D004B3DE6 /* UIView+RTFrameEx.h */,
 				D5B3D2AE1B5E445D004B3DE6 /* UIView+RTFrameEx.m */,
-				D554FA701BBA999B0087BC06 /* UIViewController+RTNavigationBar.h */,
-				D554FA711BBA999B0087BC06 /* UIViewController+RTNavigationBar.m */,
 				D554FA881BBBAE100087BC06 /* UIViewController+RTActivityView.h */,
 				D554FA891BBBAE100087BC06 /* UIViewController+RTActivityView.m */,
+				D554FA701BBA999B0087BC06 /* UIViewController+RTNavigationBar.h */,
+				D554FA711BBA999B0087BC06 /* UIViewController+RTNavigationBar.m */,
 			);
-			name = Category;
+			path = Category;
 			sourceTree = "<group>";
 		};
 		D554FA801BBB72D30087BC06 /* Class */ = {
 			isa = PBXGroup;
 			children = (
-				D57F32641B8C8B3600CC8432 /* RTRootViewController.h */,
-				D57F32651B8C8B3600CC8432 /* RTRootViewController.m */,
-				D5B3D28D1B5E1672004B3DE6 /* RTTabBarController.h */,
-				D5B3D28E1B5E1672004B3DE6 /* RTTabBarController.m */,
-				D5B3D2901B5E176E004B3DE6 /* RTNavigationController.h */,
-				D5B3D2911B5E176E004B3DE6 /* RTNavigationController.m */,
 				D5B3D2961B5E1859004B3DE6 /* RTBaseViewController.h */,
 				D5B3D2971B5E1859004B3DE6 /* RTBaseViewController.m */,
 				D5B3D2A51B5E1F1C004B3DE6 /* RTCollectionViewController.h */,
 				D5B3D2A61B5E1F1C004B3DE6 /* RTCollectionViewController.m */,
-				D5B3D2A81B5E1F2A004B3DE6 /* RTTableViewController.h */,
-				D5B3D2A91B5E1F2A004B3DE6 /* RTTableViewController.m */,
-				D55B295A1B60AEE300AC6562 /* RTTableViewCell.h */,
-				D55B295B1B60AEE300AC6562 /* RTTableViewCell.m */,
+				D5B3D2901B5E176E004B3DE6 /* RTNavigationController.h */,
+				D5B3D2911B5E176E004B3DE6 /* RTNavigationController.m */,
 				D55B29601B60B4DE00AC6562 /* RTReactNativeController.h */,
 				D55B29611B60B4DE00AC6562 /* RTReactNativeController.m */,
+				D57F32641B8C8B3600CC8432 /* RTRootViewController.h */,
+				D57F32651B8C8B3600CC8432 /* RTRootViewController.m */,
+				D5B3D28D1B5E1672004B3DE6 /* RTTabBarController.h */,
+				D5B3D28E1B5E1672004B3DE6 /* RTTabBarController.m */,
+				D55B295A1B60AEE300AC6562 /* RTTableViewCell.h */,
+				D55B295B1B60AEE300AC6562 /* RTTableViewCell.m */,
+				D5B3D2A81B5E1F2A004B3DE6 /* RTTableViewController.h */,
+				D5B3D2A91B5E1F2A004B3DE6 /* RTTableViewController.m */,
 			);
-			name = Class;
+			path = Class;
 			sourceTree = "<group>";
 		};
 		D5B3D2991B5E1917004B3DE6 /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				D5B3D29C1B5E192D004B3DE6 /* Views */,
 				D5B3D29B1B5E1926004B3DE6 /* Controllers */,
+				D5B3D29C1B5E192D004B3DE6 /* Views */,
 			);
-			name = Home;
+			path = Home;
 			sourceTree = "<group>";
 		};
 		D5B3D29A1B5E191E004B3DE6 /* User */ = {
 			isa = PBXGroup;
 			children = (
-				D5B3D2A11B5E195D004B3DE6 /* Views */,
 				D5B3D2A01B5E1958004B3DE6 /* Controllers */,
+				D5B3D2A11B5E195D004B3DE6 /* Views */,
 			);
-			name = User;
+			path = User;
 			sourceTree = "<group>";
 		};
 		D5B3D29B1B5E1926004B3DE6 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				D5B3D29D1B5E1943004B3DE6 /* RTHomeViewController.h */,
-				D5B3D29E1B5E1943004B3DE6 /* RTHomeViewController.m */,
 				D5D2ACC11BA91055008CF33F /* RTBugTagsViewController.h */,
 				D5D2ACC21BA91055008CF33F /* RTBugTagsViewController.m */,
+				D5B3D29D1B5E1943004B3DE6 /* RTHomeViewController.h */,
+				D5B3D29E1B5E1943004B3DE6 /* RTHomeViewController.m */,
 			);
-			name = Controllers;
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 		D5B3D29C1B5E192D004B3DE6 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				D55B29571B609C8600AC6562 /* RTReactView.h */,
-				D55B29581B609C8600AC6562 /* RTReactView.m */,
 				D55B295D1B60AEF400AC6562 /* RTHomeItemCell.h */,
 				D55B295E1B60AEF400AC6562 /* RTHomeItemCell.m */,
+				D55B29571B609C8600AC6562 /* RTReactView.h */,
+				D55B29581B609C8600AC6562 /* RTReactView.m */,
 			);
-			name = Views;
+			path = Views;
 			sourceTree = "<group>";
 		};
 		D5B3D2A01B5E1958004B3DE6 /* Controllers */ = {
@@ -432,14 +432,14 @@
 				D5B3D2A21B5E196B004B3DE6 /* RTUserCenterViewController.h */,
 				D5B3D2A31B5E196B004B3DE6 /* RTUserCenterViewController.m */,
 			);
-			name = Controllers;
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 		D5B3D2A11B5E195D004B3DE6 /* Views */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			name = Views;
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -711,7 +711,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				INFOPLIST_FILE = Rat/Info.plist;
+				GCC_PREFIX_HEADER = "Rat/Supporting Files/Rat-Prefix.pch";
+				INFOPLIST_FILE = "Rat/Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -724,7 +725,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				INFOPLIST_FILE = Rat/Info.plist;
+				GCC_PREFIX_HEADER = "Rat/Supporting Files/Rat-Prefix.pch";
+				INFOPLIST_FILE = "Rat/Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -745,7 +747,7 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = RatTests/Info.plist;
+				INFOPLIST_FILE = "RatTests/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rat.app/Rat";
@@ -762,7 +764,7 @@
 					"$(inherited)",
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
-				INFOPLIST_FILE = RatTests/Info.plist;
+				INFOPLIST_FILE = "RatTests/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rat.app/Rat";
